@@ -1,0 +1,58 @@
+- link:
+    ~/:
+      force: true
+      create: true
+      glob: true
+      path: dotconf/*
+      prefix: "."
+    ~/.config/:
+      glob: true
+      path: config/**
+      relink: true
+      exclude:
+        [
+          config/Code,
+          config/BraveSoftware,
+          config/desktop-wakatime,
+          "config/Docker Desktop",
+          config/enchant,
+          config/eog,
+          config/github-copilot/py,
+          "config/GitHub Desktop Plus",
+          config/GitKraken,
+          config/go,
+          config/Goose,
+          config/ibus,
+          config/JetBrains,
+          config/libvirt,
+          "config/Proton Pass",
+          config/pulse,
+          config/sourcery,
+          config/systemd,
+          config/tiling-assistant,
+          config/winboat,
+          "**.log",
+          config/**/logs,
+          config/**/Cache,
+        ]
+    ~/.config/Code/User/:
+      create: true
+      glob: true
+      path: config/Code/User/*
+      relink: true
+      exclude: [config/Code/User/sync, config/Code/User/History]
+    ~/.var/app/*/config:
+      create: true
+      glob: true
+      path: var/*/config/*
+      relink: true
+- create:
+    ~/Development:
+- shell:
+    - command: chsh -s $(which zsh)
+      description: Making zsh the default shell
+- clean: ["~"]
+- defaults:
+    link:
+      create: true
+      relink: true
