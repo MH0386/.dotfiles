@@ -1,0 +1,8 @@
+{
+  "V2FrYVRpbWU=": {
+    "b64name": "V2FrYVRpbWU=",
+    "update_url": "https://github.com/wakatime/desktop-wakatime/releases/download/*/wakatime-linux-x86_64.AppImage",
+    "update_url_manager": "GithubUpdater",
+    "name": "WakaTime"
+  }
+}
