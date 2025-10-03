@@ -1,0 +1,9 @@
+[io/github/nozwock/Packet]
+download-folder='/home/mohamed/Downloads'
+device-name='MohamedLaptop'
+window-width=360
+window-height=600
+is-maximized=false
+run-in-background=true
+auto-start=true
+enable-nautilus-plugin=false
