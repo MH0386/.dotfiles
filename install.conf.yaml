@@ -38,7 +38,7 @@
     ~/.config/Code/User/:
       create: true
       glob: true
-      path: config/Code/User/*
+      path: config/Code/User/**
       relink: true
       exclude:
         [
@@ -48,10 +48,14 @@
           config/Code/User/profiles,
           config/Code/User/globalStorage,
         ]
-    ~/.var/app/*/config:
+    ~/.config/background:
+      create: true
+      path: config/background.jpeg
+      relink: true
+    ~/.var/app/:
       create: true
       glob: true
-      path: var/*/config/*
+      path: var/app/*/config/**
       relink: true
 - create:
     ~/Development:
