@@ -1,0 +1,46 @@
+{
+  "config_version": 3,
+  "shortcuts": {},
+  "terminal": {
+    "theme": "default",
+    "font": "Monospace 12",
+    "scrollback_lines": 10000,
+    "cursor_blink": true,
+    "audible_bell": false
+  },
+  "ui": {
+    "show_hostname": true,
+    "auto_focus_terminal": true,
+    "confirm_close_tabs": true,
+    "remember_window_size": true,
+    "window_width": 1200,
+    "window_height": 800,
+    "sidebar_width": 250
+  },
+  "welcome": {
+    "background_color": null,
+    "tile_color": null
+  },
+  "connections_meta": {},
+  "ssh": {
+    "connection_timeout": 30,
+    "keepalive_interval": 60,
+    "compression": true,
+    "auto_add_host_keys": true,
+    "verbosity": 0,
+    "debug_enabled": false,
+    "use_isolated_config": false,
+    "apply_advanced": false,
+    "connection_attempts": 1,
+    "keepalive_count_max": 3,
+    "strict_host_key_checking": "accept-new",
+    "batch_mode": true
+  },
+  "file_manager": {
+    "force_internal": false
+  },
+  "security": {
+    "store_passwords": true,
+    "ssh_agent_forwarding": true
+  }
+}
