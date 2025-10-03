@@ -6,6 +6,7 @@
       path: dotconf/*
       prefix: "."
     ~/.config/:
+      force: true
       glob: true
       path: config/**
       relink: true
@@ -36,6 +37,7 @@
           config/github-copilot,
         ]
     ~/.config/Code/User/:
+      force: true
       create: true
       glob: true
       path: config/Code/User/**
@@ -49,10 +51,12 @@
           config/Code/User/globalStorage,
         ]
     ~/.config/background:
+      force: true
       create: true
       path: config/background.jpeg
       relink: true
     ~/.var/app/:
+      force: true
       create: true
       glob: true
       path: var/app/*/config/**
@@ -62,6 +66,9 @@
 - shell:
     - command: chsh -s $(which zsh)
       description: Making zsh the default shell
+      stdin: true
+      stdout: true
+      stderr: true
 - clean: ["~"]
 - defaults:
     link:
