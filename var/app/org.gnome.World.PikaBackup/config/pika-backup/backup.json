@@ -1,0 +1,59 @@
+[
+  {
+    "config_version": 2,
+    "id": "008e14c9-c3ad-4104-8b2a-3250c5fd0a5d",
+    "archive_prefix": "f51fff-",
+    "repo_id": "e5af27c046995ad287da74596dfb5a3b63913a7fccefa60f5043c1f6c3fa43f0",
+    "repo": {
+      "type": "Local",
+      "path": "backup-MohamedLaptop-mohamed",
+      "mount_path": "/media/mohamed/1470F967555ED5ED",
+      "uri": "file:///media/mohamed/1470F967555ED5ED/backup-MohamedLaptop-mohamed",
+      "drive_name": "WDC WD10JMVW-11AJGS1",
+      "mount_name": "1.0 TB Volume",
+      "volume_uuid": "1470F967555ED5ED",
+      "volume_uuid_identifier": "1470F967555ED5ED",
+      "removable": true,
+      "icon": ". GThemedIcon drive-harddisk-usb drive-harddisk drive drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic",
+      "icon_symbolic": ". GThemedIcon drive-harddisk-usb-symbolic drive-harddisk-symbolic drive-symbolic drive-harddisk-usb drive-harddisk drive",
+      "settings": {
+        "command_line_args": []
+      }
+    },
+    "encrypted": false,
+    "encryption_mode": "repokey-blake2",
+    "include": [""],
+    "exclude": [
+      {
+        "PathPrefix": "Downloads"
+      },
+      {
+        "PathPrefix": "Videos"
+      },
+      "Trash"
+    ],
+    "schedule": {
+      "enabled": false,
+      "settings": {
+        "run_on_battery": false
+      },
+      "frequency": {
+        "Daily": {
+          "preferred_time": "17:00:00"
+        }
+      }
+    },
+    "prune": {
+      "enabled": false,
+      "keep": {
+        "hourly": 48,
+        "daily": 14,
+        "weekly": 4,
+        "monthly": 12,
+        "yearly": 10
+      }
+    },
+    "title": "",
+    "user_scripts": {}
+  }
+]

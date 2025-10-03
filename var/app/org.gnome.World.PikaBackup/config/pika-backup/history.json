@@ -1,0 +1,245 @@
+{
+  "008e14c9-c3ad-4104-8b2a-3250c5fd0a5d": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2025-09-26T15:47:46.804277522+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 3649.452016,
+                "id": "fa5913b72365d6a09e876b8be2d897871776a1f7188d84d01b35c33f2309ff30",
+                "name": "f51fff-20c4db3f",
+                "stats": {
+                  "compressed_size": 31065400521,
+                  "deduplicated_size": 16997898879,
+                  "nfiles": 533340,
+                  "original_size": 1068428450052
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "ERROR",
+              "name": "borg.archiver",
+              "message": "Failed to create/acquire the lock /media/mohamed/1470F967555ED5ED/backup-MohamedLaptop-mohamed/lock.exclusive (timeout).",
+              "msgid": "LockTimeout"
+            }
+          }
+        ],
+        "include": [""],
+        "exclude": [
+          {
+            "PathPrefix": "/home/mohamed/Downloads"
+          },
+          {
+            "PathPrefix": "/home/mohamed/Videos"
+          },
+          "Trash"
+        ]
+      },
+      {
+        "end": "2025-09-26T14:45:42.058711677+03:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "Failed to Mount\nError mounting /dev/sda1 at /media/mohamed/1470F967555ED5ED: wrong fs type, bad option, bad superblock on /dev/sda1, missing codepage or helper program, or other error"
+          }
+        },
+        "messages": [],
+        "include": [""],
+        "exclude": [
+          {
+            "PathPrefix": "/home/mohamed/Downloads"
+          },
+          {
+            "PathPrefix": "/home/mohamed/Videos"
+          },
+          "Trash"
+        ]
+      },
+      {
+        "end": "2025-09-26T14:45:38.114736583+03:00",
+        "outcome": {
+          "Aborted": {
+            "RepositoryNotAvailable": "UserCanceled"
+          }
+        },
+        "messages": [],
+        "include": [""],
+        "exclude": [
+          {
+            "PathPrefix": "/home/mohamed/Downloads"
+          },
+          {
+            "PathPrefix": "/home/mohamed/Videos"
+          },
+          "Trash"
+        ]
+      },
+      {
+        "end": "2025-09-22T23:10:09+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 27.0,
+                "id": "603d2daa7a35062b858edb87fbe1bee05ea47fe94c81f6ff43fde31bf38ebc6f",
+                "name": "f51fff-d0e7997b",
+                "stats": {
+                  "compressed_size": 0,
+                  "deduplicated_size": 0,
+                  "nfiles": 0,
+                  "original_size": 0
+                }
+              }
+            }
+          }
+        },
+        "messages": [],
+        "include": [""],
+        "exclude": [
+          {
+            "PathPrefix": "Downloads"
+          },
+          {
+            "PathPrefix": "Videos"
+          },
+          "Caches",
+          "Trash"
+        ]
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2025-09-26T15:47:46.804277522+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 3649.452016,
+              "id": "fa5913b72365d6a09e876b8be2d897871776a1f7188d84d01b35c33f2309ff30",
+              "name": "f51fff-20c4db3f",
+              "stats": {
+                "compressed_size": 31065400521,
+                "deduplicated_size": 16997898879,
+                "nfiles": 533340,
+                "original_size": 1068428450052
+              }
+            }
+          }
+        }
+      },
+      "messages": [
+        {
+          "ParsedErr": {
+            "levelname": "ERROR",
+            "name": "borg.archiver",
+            "message": "Failed to create/acquire the lock /media/mohamed/1470F967555ED5ED/backup-MohamedLaptop-mohamed/lock.exclusive (timeout).",
+            "msgid": "LockTimeout"
+          }
+        }
+      ],
+      "include": [""],
+      "exclude": [
+        {
+          "PathPrefix": "/home/mohamed/Downloads"
+        },
+        {
+          "PathPrefix": "/home/mohamed/Videos"
+        },
+        "Trash"
+      ]
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  },
+  "66c1e2ec-d822-4b4a-b144-2a38382ebb7e": {
+    "config_version": 2,
+    "run": [
+      {
+        "end": "2025-09-23T15:08:25.525193212+03:00",
+        "outcome": {
+          "Aborted": "LeftRunning"
+        },
+        "messages": [],
+        "include": [],
+        "exclude": []
+      },
+      {
+        "end": "2025-09-23T15:04:41.113921057+03:00",
+        "outcome": {
+          "Completed": {
+            "stats": {
+              "archive": {
+                "duration": 3085.621439,
+                "id": "1b3e290b4725f91ea5ceeaea1f0f6f614d3636b9172865cb5e4eb1edd8f24bb1",
+                "name": "5e56a3-64397350",
+                "stats": {
+                  "compressed_size": 15008251731,
+                  "deduplicated_size": 14185255877,
+                  "nfiles": 217184,
+                  "original_size": 1045845075842
+                }
+              }
+            }
+          }
+        },
+        "messages": [
+          {
+            "ParsedErr": {
+              "levelname": "WARNING",
+              "name": "borg.archiver",
+              "message": "/home/mohamed/.docker/desktop/vms/0/data/Docker.raw: file changed while we backed it up",
+              "msgid": "Undefined"
+            }
+          }
+        ],
+        "include": [""],
+        "exclude": []
+      }
+    ],
+    "running": null,
+    "last_completed": {
+      "end": "2025-09-23T15:04:41.113921057+03:00",
+      "outcome": {
+        "Completed": {
+          "stats": {
+            "archive": {
+              "duration": 3085.621439,
+              "id": "1b3e290b4725f91ea5ceeaea1f0f6f614d3636b9172865cb5e4eb1edd8f24bb1",
+              "name": "5e56a3-64397350",
+              "stats": {
+                "compressed_size": 15008251731,
+                "deduplicated_size": 14185255877,
+                "nfiles": 217184,
+                "original_size": 1045845075842
+              }
+            }
+          }
+        }
+      },
+      "messages": [
+        {
+          "ParsedErr": {
+            "levelname": "WARNING",
+            "name": "borg.archiver",
+            "message": "/home/mohamed/.docker/desktop/vms/0/data/Docker.raw: file changed while we backed it up",
+            "msgid": "Undefined"
+          }
+        }
+      ],
+      "include": [""],
+      "exclude": []
+    },
+    "last_check": null,
+    "suggested_exclude": {
+      "PermissionDenied": []
+    }
+  }
+}
