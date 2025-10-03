@@ -1,0 +1,5 @@
+[app/drey/Damask]
+active-source='earthview'
+run-in-background=true
+refresh-interval='86400'
+autostart=true
