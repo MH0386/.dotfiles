@@ -17,7 +17,6 @@
           "config/Docker Desktop",
           config/enchant,
           config/eog,
-          config/github-copilot/py,
           "config/GitHub Desktop Plus",
           config/GitKraken,
           config/go,
@@ -34,6 +33,7 @@
           "**.log",
           config/**/logs,
           config/**/Cache,
+          config/github-copilot,
         ]
     ~/.config/Code/User/:
       create: true
