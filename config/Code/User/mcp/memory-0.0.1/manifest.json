@@ -1,0 +1,37 @@
+{
+  "id": "memory",
+  "name": "memory",
+  "displayName": "Memory",
+  "description": "Store and retrieve contextual information across sessions.",
+  "version": "0.0.1",
+  "publisher": "",
+  "publisherDisplayName": "Model Context Protocol",
+  "repositoryUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+  "codicon": "codicon-history",
+  "manifest": {
+    "packages": [
+      {
+        "registry_name": "npm",
+        "name": "@modelcontextprotocol/server-memory",
+        "version": "latest",
+        "runtime_arguments": [{ "type": "named", "name": "-y" }],
+        "environment_variables": [
+          {
+            "name": "MEMORY_FILE_PATH",
+            "value": "${memory_file_path}",
+            "is_required": false,
+            "variables": {
+              "memory_file_path": {
+                "description": "Path to the memory storage file",
+                "is_secret": false,
+                "format": "string"
+              }
+            }
+          }
+        ],
+        "identifier": "@modelcontextprotocol/server-memory",
+        "registry_type": "npm"
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sequentialthinking",
+  "name": "sequentialthinking",
+  "displayName": "Sequential Thinking",
+  "description": "Break down complex tasks into manageable steps with transparent tracking.",
+  "version": "0.0.1",
+  "publisher": "",
+  "publisherDisplayName": "Model Context Protocol",
+  "repositoryUrl": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+  "codicon": "codicon-list-ordered",
+  "manifest": {
+    "packages": [
+      {
+        "registry_name": "npm",
+        "name": "@modelcontextprotocol/server-sequential-thinking",
+        "version": "latest",
+        "runtime_arguments": [{ "type": "named", "name": "-y" }],
+        "identifier": "@modelcontextprotocol/server-sequential-thinking",
+        "registry_type": "npm"
+      }
+    ]
+  }
+}
