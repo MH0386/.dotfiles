@@ -46,6 +46,7 @@
           config/Code/User/History,
           config/Code/User/workspaceStorage,
           config/Code/User/profiles,
+          config/Code/User/globalStorage,
         ]
     ~/.var/app/*/config:
       create: true
