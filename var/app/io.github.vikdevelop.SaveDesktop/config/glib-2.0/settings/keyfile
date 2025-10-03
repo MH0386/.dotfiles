@@ -1,0 +1,14 @@
+[io/github/vikdevelop/SaveDesktop]
+first-synchronization-setup=true
+save-flatpak-data=true
+disabled-flatpak-apps-data=[]
+save-icons=true
+save-themes=true
+save-fonts=true
+save-backgrounds=true
+save-desktop-folder=true
+save-installed-flatpaks=true
+save-extensions=true
+window-size=(570, 570)
+maximized=false
+filename='main'
