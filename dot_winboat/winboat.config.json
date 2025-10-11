@@ -1,0 +1,8 @@
+{
+    "scale": 100,
+    "smartcardEnabled": false,
+    "rdpMonitoringEnabled": false,
+    "passedThroughDevices": [],
+    "customApps": [],
+    "experimentalFeatures": false
+}
