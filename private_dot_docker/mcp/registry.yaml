@@ -1,0 +1,7 @@
+registry:
+  fetch:
+    ref: ""
+  memory:
+    ref: ""
+  sequentialthinking:
+    ref: ""
