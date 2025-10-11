@@ -1,0 +1,7 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="redis">
+      <artifact id="Redis" name="Redis" use="true" version="1.5" />
+    </driver>
+  </component>
+</application>

@@ -1,0 +1,6 @@
+<application>
+  <component name="IntentionManagerSettings">
+    <ignoreAction name="Language injection/Inject language or reference" />
+    <ignoreAction name="Python/Convert 'from module import' to 'import module'" />
+  </component>
+</application>

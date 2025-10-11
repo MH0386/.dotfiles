@@ -1,0 +1,6 @@
+<application>
+  <component name="DataGridAppearanceSettingsImpl" version="1">
+    <option name="striped-table" value="true" />
+    <option name="boolean-mode" value="CHECKBOX" />
+  </component>
+</application>

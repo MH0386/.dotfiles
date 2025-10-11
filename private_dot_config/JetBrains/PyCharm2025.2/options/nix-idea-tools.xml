@@ -1,0 +1,20 @@
+<application>
+  <component name="NixExternalFormatterSettings">
+    <option name="command" value="nix --extra-experimental-features &quot;nix-command flakes&quot; run nixpkgs#nixpkgs-fmt" />
+    <option name="enabled" value="true" />
+    <option name="history">
+      <collection>
+        <option value="nix --extra-experimental-features &quot;nix-command flakes&quot; run nixpkgs#nixpkgs-fmt" />
+      </collection>
+    </option>
+  </component>
+  <component name="NixLspSettings">
+    <option name="command" value="nix --extra-experimental-features &quot;nix-command flakes&quot; run nixpkgs#nil" />
+    <option name="enabled" value="true" />
+    <option name="history">
+      <collection>
+        <option value="nix --extra-experimental-features &quot;nix-command flakes&quot; run nixpkgs#nil" />
+      </collection>
+    </option>
+  </component>
+</application>

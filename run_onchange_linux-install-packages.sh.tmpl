@@ -1,0 +1,14 @@
+{{- if eq .chezmoi.os "linux" -}}
+#!/usr/bin/env bash
+
+set -e
+
+if command -v apt >/dev/null; then
+    echo "Updating apt cache..."
+    sudo apt update
+
+    # Install all packages in one apt install command for efficiency
+    echo "Installing apt packages..."
+    sudo apt install -y {{- range .packages.linux.apt }} {{ . | quote }} {{- end }}
+fi
+{{- end -}}

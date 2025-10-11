@@ -1,0 +1,112 @@
+<application>
+  <component name="ActionHistoryManager">
+    <ids>
+      <option value="NewEditorConfigFile" />
+    </ids>
+  </component>
+  <component name="FileEditorProviderManager">{}</component>
+  <component name="LangManager">
+    <option name="languageName" value="Python" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="ideScale" value="1.1" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "AIHubNotificationManager.lastTariffQuotaAvailable": "298174.75",
+    "AIHubNotificationManager.lastUsedLicenseType": "FREE",
+    "API_KEY_EXISTS_gemini": "true",
+    "ExpandBeforeRunStepsPanel": "false",
+    "FindSplitterProportion": "0.39932886",
+    "InstalledPluginsSearchHistory": "/outdated\ngitlen\ngitle\ngitl\ngit",
+    "KEYMAP": "format",
+    "LAST_CALCULATED_COLOR_INDEX_KEY": "5",
+    "MarketplacePluginsSearchHistory": "poml\npom\npo\nnix\nni",
+    "PyCharm.InitialConfiguration": "true",
+    "PyCharm.InitialConfiguration.V2": "true",
+    "PyCharm.InitialConfiguration.V3": "true",
+    "PyCharm.InitialConfiguration.V4": "true",
+    "PyCharm.InitialConfiguration.V5": "true",
+    "PyCharm.InitialConfiguration.V6": "true",
+    "PyCharm.InitialConfiguration.V7": "true",
+    "PyCharm.InitialConfiguration.V8": "true",
+    "PyCharm.Uv.Path": "/home/mohamed/.flox/run/x86_64-linux.default.run/bin/uv",
+    "RunOnceActivity.TerminalFontSettingsService.fixStoredNonMonospacedFonts": "true",
+    "RunOnceActivity.TerminalLocalOptions.migration": "true",
+    "RunOnceActivity.TerminalOptionsProvider.migration.2025.1.1": "true",
+    "RunOnceActivity.VFSInitializationConditionsToFusReporter": "true",
+    "RunOnceActivity.git.modal.commit.toggle": "true",
+    "RunOnceActivity.llm.onboarding.window.launcher.v7": "true",
+    "RunOnceActivity.reset.auto.reparse.settings.to.default": "true",
+    "SettingsSearchHistory": "nix\nshortc",
+    "SonarLint.lastPromotionNotificationDate": "1759433480447",
+    "WelcomeFeature.SHORT_WELCOME_GUIDE_SHOWN": "true",
+    "ai.playground.env.api.keys.dialog.shown": "true",
+    "ask.about.ctrl.y.shortcut.v2": "true",
+    "enter_selection_count": "5",
+    "evlsprt3.252": "5",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "252.26830.99",
+    "experimentalFeature.terminal.shell.command.handling": "false",
+    "fileTypeChangedCounter": "51",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "full.line.logs.sending.asked": "true",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "got.it.tooltip.ai.assistant.commit.message.generation.and.branch.reference": "1",
+    "hasWalkthroughRunOnce": "true",
+    "ide.islands.ab2": "true",
+    "ide.islands.show.feedback2": "done",
+    "idea.islands.enabled": "true",
+    "input.method.disabler.muted": "true",
+    "junie.openOnceAfterInstall": "true",
+    "last_opened_file_path": "/home/mohamed/Development/chattr/.envrc",
+    "leetcode-editorShowNewHTMLEditor": "8.15",
+    "llm.installer.auto.activation.executed": "true",
+    "llm.installer.last.toolwindow.state": "AI_ASSISTANT",
+    "migrated.non.roamable.values.from.general.settings": "true",
+    "previousColorScheme": "_@user_Islands Dark",
+    "registry.to.advanced.settings.migration.build": "PY-252.26830.99",
+    "settings.code.style.selected.tab.yaml": "Tabs and Indents",
+    "terminal.gen.one.option.visible": "false",
+    "terminal.is.new.user": "true",
+    "trial.state.last.availability.check": "1758747809988",
+    "trial.state.last.availability.state": "false",
+    "trial.state.last.state": "EXPIRED",
+    "ts.lib.d.ts.version": "5.7.3",
+    "whats.new.last.shown.version": "2025-2.2-26199-bf9800fe06357a8d934337c13de66c2b153b9545"
+  },
+  "keyToStringList": {
+    "AIHubNotificationManager.gotItNotifications": [
+      "UPDATE_AVAILABLE",
+      "FREE_ENABLED"
+    ],
+    "AIHubNotificationManager.lastAllNotifications": [],
+    "AIHubNotificationManager.notifications": [],
+    "AIHubNotificationManager.seenNotifications": [],
+    "file.chooser.recent.files": [
+      "/home/mohamed/Development/chattr/.envrc",
+      "/home/mohamed/Development/vocalizr/src/vocalizr/__main__.py",
+      "/home/mohamed/Development/vocalizr/src/vocalizr/app/runner.py",
+      "/home/mohamed/Development/vocalizr/src/vocalizr/app/settings.py",
+      "/home/mohamed/Development/chattr",
+      "/home/mohamed/Development/visualizr",
+      "/home/mohamed/Development/vocalizr"
+    ],
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$JavaScriptFileTypeDetector",
+      "com.jetbrains.nodejs.util.NodeFileTypeDetector$TypeScriptFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="TerminalUiSettingsManager">
+    <option name="cursorShape" value="VERTICAL" />
+  </component>
+</application>

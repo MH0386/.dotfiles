@@ -1,0 +1,6 @@
+<application>
+  <component name="systems.fehn.intellijdirenv.settings.DirenvSettingsState">
+    <option name="direnvSettingsImportOnStartup" value="true" />
+    <option name="direnvSettingsImportEveryExecution" value="true" />
+  </component>
+</application>
