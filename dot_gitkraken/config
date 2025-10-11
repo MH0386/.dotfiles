@@ -1,0 +1,272 @@
+{
+  "lastUpgradeScriptRun": "v11.3.0",
+  "appId": "3fc301f9ad394738eb7ed86eb7dc01ea1e7c79a2",
+  "appLocale": "en-US",
+  "appDateFormat": null,
+  "appDateTimeFormat": null,
+  "appDateWordFormat": null,
+  "appDateVerboseFormat": null,
+  "userMilestones": {
+    "installId": "ec809642-cfad-4da3-91c6-d156c2e17099",
+    "installDate": 1758823627118,
+    "firstAppOpen": true,
+    "firstLoginRegister": true,
+    "createAWorkspace": true,
+    "introTutorialWelcomeStepSkipped": true,
+    "startATrial": true,
+    "connectIntegration": true,
+    "firstProfileCreated": true,
+    "completedNewUserOnboarding": true,
+    "firstRepoOpened": true,
+    "firstTimeCommitSelected": true
+  },
+  "sslWhitelist": [],
+  "webConfig": {
+    "lastUpdatedAt": "2025-09-25T18:13:07.518Z",
+    "config": {
+      "callouts": [],
+      "promos": [
+        {
+          "key": "BYTE256_2025",
+          "code": "BYTE256",
+          "startsOn": "2025-09-08T23:59:00.000Z",
+          "expiresOn": "2025-09-20T09:59:00.000Z",
+          "content": {
+            "promoBadgeMarkdown": "**Happy International Programmer's Day!**\n\nSave 60-85% on GitKraken Pro.",
+            "proPromoLabelSmall": "SAVE 60-85% for a limited time!",
+            "toolbarLinkLabelOverride": "Save 60-85% on Pro"
+          }
+        },
+        {
+          "key": "2XTOKENS25",
+          "code": "2XTOKENS",
+          "startsOn": "2025-07-21T23:59:00.000Z",
+          "expiresOn": "2025-07-31T09:59:00.000Z",
+          "content": {
+            "advancedPromoLabelSmall": "66% Off Single Seat",
+            "toolbarLinkLabelOverride": "66% off Advanced"
+          }
+        },
+        {
+          "key": "50OFFADV",
+          "code": "50OFFADV",
+          "content": {
+            "advancedPromoLabelSmall": "SAVE 50% for a limited time!"
+          }
+        }
+      ]
+    },
+    "dismissedCallouts": {}
+  },
+  "lastReleaseNotesDisplayed": "11.4.0",
+  "ui": {
+    "shouldShowStartupPromoModal": false
+  },
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "registration": {
+    "email": "mohamed.hisham.abdelzaher@gmail.com",
+    "name": "Mohamed Hisham Abdelzaher",
+    "status": "activated",
+    "loginType": "github",
+    "date": "2025-09-25T18:13:20.506Z",
+    "EULA": {
+      "version": "8.3.1",
+      "status": "agree_verified"
+    }
+  },
+  "userId": "9458e038-9f98-49b1-a416-a4bd66678f22",
+  "licensedFeatures": [],
+  "orgSettingsByOrgId": {
+    "624b79b66d75850060f2dcb4": {
+      "aiSettings": {
+        "enabled": true,
+        "createdAt": "2024-06-06T11:28:04.486176Z",
+        "updatedAt": "2024-06-06T11:28:04.486176Z"
+      },
+      "draftsSettings": {
+        "enabled": true,
+        "createdAt": "2024-06-06T11:28:04.485635Z",
+        "updatedAt": "2024-06-06T11:28:04.485635Z"
+      },
+      "ssoSettings": {
+        "enabled": false,
+        "enforced": false,
+        "provision": false,
+        "createdAt": "2024-06-06T11:28:04.486176Z",
+        "updatedAt": "2024-06-06T11:28:04.486176Z"
+      },
+      "memberInvitesRequireApproval": true,
+      "conflictDetectionEnabled": true,
+      "aiEnabled": true,
+      "enforceAiProviders": false,
+      "aiProviders": {},
+      "ssoEnabled": false,
+      "ssoEnforced": false,
+      "ssoProvision": false,
+      "createdAt": "2024-06-06T11:28:04.486176Z",
+      "updatedAt": "2024-06-06T11:28:04.486176Z"
+    }
+  },
+  "userFeatures": [
+    {
+      "name": "activityStatus",
+      "value": true
+    },
+    {
+      "name": "changePriceEnabled",
+      "value": true
+    },
+    {
+      "name": "cli",
+      "value": true
+    },
+    {
+      "name": "experimentalAiCommmitMsg",
+      "value": true
+    },
+    {
+      "name": "experimentalGitBinary",
+      "value": true
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn960",
+      "value": true
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn971",
+      "value": true
+    },
+    {
+      "name": "experimentalGitBinarySpawnServer961",
+      "value": true
+    },
+    {
+      "name": "gitBash",
+      "value": true
+    },
+    {
+      "name": "gitkraken",
+      "value": true
+    },
+    {
+      "name": "gkApi",
+      "value": true
+    },
+    {
+      "name": "gkdAIFeedback_11_2_0",
+      "value": true
+    },
+    {
+      "name": "gkdAIMergeConflictResolutionNudge_11_3_0",
+      "value": true
+    },
+    {
+      "name": "gkdCommitComposeWipButtonBottom_11_3_0",
+      "value": true
+    },
+    {
+      "name": "gkdConflictPreventionFeedback_11_1_0",
+      "value": true
+    },
+    {
+      "name": "gkdevAllowInviteMessages",
+      "value": true
+    },
+    {
+      "name": "gkDevReferralSystem",
+      "value": true
+    },
+    {
+      "name": "gkdOnboardingTutorial_10_5_0",
+      "value": true
+    },
+    {
+      "name": "gkDotDevAutoConnectTargetProvider",
+      "value": true
+    },
+    {
+      "name": "gkDotDevGuestCheckout",
+      "value": true
+    },
+    {
+      "name": "gkDotDevUpdateProfilePicture",
+      "value": true
+    },
+    {
+      "name": "gkdReferralProgram_11_0_0",
+      "value": true
+    },
+    {
+      "name": "gkdTrialStartModalPromoMessage_11_1_0",
+      "value": true
+    },
+    {
+      "name": "gkdTutorialSkipFirstStep_10_8_0",
+      "value": true
+    },
+    {
+      "name": "gkdUpgradeLicenseFlowVariant_11_5_0",
+      "value": "checkout"
+    },
+    {
+      "name": "goldenTicketSpecial",
+      "value": true
+    },
+    {
+      "name": "onboardingGuide",
+      "value": true
+    },
+    {
+      "name": "privateRepoModalTest_10_5_0",
+      "value": true
+    },
+    {
+      "name": "registeredForGST",
+      "value": true
+    },
+    {
+      "name": "terminalInsideRepoTab",
+      "value": true
+    },
+    {
+      "name": "unregisteredTrials",
+      "value": true
+    },
+    {
+      "name": "useNewTrialStartModalTest_10_8_0",
+      "value": true
+    },
+    {
+      "name": "velocityInClient_9_0_0",
+      "value": true
+    },
+    {
+      "name": "workspacesPRComplexity",
+      "value": true
+    }
+  ],
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/home/mohamed/Development/visualizr": {
+          "id": "openRepo-/home/mohamed/Development/visualizr",
+          "timestamps": [
+            1758824019846
+          ],
+          "total": 1
+        }
+      }
+    }
+  },
+  "windowSettings": {
+    "x": 448,
+    "y": 156,
+    "width": 1251,
+    "height": 800,
+    "fullScreen": false,
+    "maximized": false
+  }
+}
