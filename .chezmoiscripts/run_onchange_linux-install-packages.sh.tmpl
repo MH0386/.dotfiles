@@ -10,5 +10,24 @@ if command -v apt >/dev/null; then
     # Install all packages in one apt install command for efficiency
     echo "Installing apt packages..."
     sudo apt install -y {{- range .packages.linux.apt }} {{ . | quote }} {{- end }}
+else if command -v dnf >/dev/null; then
+    echo "Updating dnf cache..."
+    sudo dnf clean all
+
+    # Install all packages in one dnf install command for efficiency
+    echo "Installing dnf packages..."
+    sudo dnf install -y {{- range .packages.linux.dnf }} {{ . | quote }} {{- end }}
 fi
+
+if command -v flatpak >/dev/null; then
+    echo "Updating flatpak cache..."
+    flatpak update
+
+    # Install all packages in one flatpak install command for efficiency
+    echo "Installing flatpak packages..."
+    {{- range .packages.linux.flatpak }}
+        flatpak install flathub -y  {{ . | quote }}
+    {{- end }}
+fi
+
 {{- end -}}
