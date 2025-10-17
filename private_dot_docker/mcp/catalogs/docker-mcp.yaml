@@ -21,25 +21,25 @@ registry:
         example: <QDRANT_API_KEY>
     env:
       - name: QDRANT_URL
-        value: '{{qdrant.qdrant_url}}'
+        value: "{{qdrant.qdrant_url}}"
       - name: COLLECTION_NAME
-        value: '{{qdrant.collection_name}}'
+        value: "{{qdrant.collection_name}}"
       - name: EMBEDDING_PROVIDER
-        value: '{{qdrant.embedding_provider}}'
+        value: "{{qdrant.embedding_provider}}"
       - name: EMBEDDING_MODEL
-        value: '{{qdrant.embedding_model}}'
+        value: "{{qdrant.embedding_model}}"
       - name: FASTMCP_DEBUG
-        value: '{{qdrant.fastmcp_debug}}'
+        value: "{{qdrant.fastmcp_debug}}"
       - name: FASTMCP_LOG_LEVEL
-        value: '{{qdrant.fastmcp_log_level}}'
+        value: "{{qdrant.fastmcp_log_level}}"
       - name: FASTMCP_WARN_ON_DUPLICATE_RESOURCES
-        value: '{{qdrant.fastmcp_warn_on_duplicate_resources}}'
+        value: "{{qdrant.fastmcp_warn_on_duplicate_resources}}"
       - name: FASTMCP_WARN_ON_DUPLICATE_TOOLS
-        value: '{{qdrant.fastmcp_warn_on_duplicate_tools}}'
+        value: "{{qdrant.fastmcp_warn_on_duplicate_tools}}"
       - name: FASTMCP_WARN_ON_DUPLICATE_PROMPTS
-        value: '{{qdrant.fastmcp_warn_on_duplicate_prompts}}'
+        value: "{{qdrant.fastmcp_warn_on_duplicate_prompts}}"
       - name: FASTMCP_DEPENDENCIES
-        value: '{{qdrant.fastmcp_dependencies}}'
+        value: "{{qdrant.fastmcp_dependencies}}"
       - name: FASTEMBED_CACHE_PATH
         value: /hf
     command:

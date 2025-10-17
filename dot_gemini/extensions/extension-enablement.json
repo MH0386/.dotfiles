@@ -1,7 +1,5 @@
 {
   "gemini-cli-security": {
-    "overrides": [
-      "/home/mohamed/*"
-    ]
+    "overrides": ["/home/mohamed/*"]
   }
 }
