@@ -1,0 +1,12 @@
+[org/gnome/gitg/preferences/interface]
+enable-monitoring=true
+orientation='vertical'
+use-gravatar=true
+style-scheme='classic'
+
+[org/gnome/gitg/state/history]
+paned-panels-position=450
+
+[org/gnome/gitg/state/window]
+size=(650, 500)
+state=43908
