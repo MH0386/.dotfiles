@@ -1,6 +1,0 @@
-<application>
-  <component name="NixSymbolSettings">
-    <option name="enabledPreview" value="true" />
-    <option name="showDeclarationsAsUsages" value="true" />
-  </component>
-</application>

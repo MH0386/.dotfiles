@@ -1,7 +1,0 @@
-<application>
-  <component name="com.intellij.aiplayground.settings.PlaygroundSettingsState">
-    <providers>
-      <provider id="ba781271-1ab7-4328-b400-9b02a52cd565" providerId="gemini" displayName="Gemini" />
-    </providers>
-  </component>
-</application>
