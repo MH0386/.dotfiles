@@ -1,0 +1,13 @@
+[org/gnome/meld/window-state]
+width=803
+height=301
+is-maximized=true
+
+[org/gnome/meld]
+wrap-mode='none'
+style-scheme='classic'
+prefer-dark-theme=true
+highlight-syntax=false
+enable-space-drawer=false
+show-line-numbers=true
+highlight-current-line=true
