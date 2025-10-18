@@ -1,0 +1,9 @@
+[com/github/rafostar/Clapper]
+volume=1.0
+mute=false
+speed=1.0
+adaptive-start-bitrate=0
+subtitles-enabled=true
+progression-mode=1
+maximized=false
+fullscreened=false
