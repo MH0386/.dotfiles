@@ -1,0 +1,33 @@
+{
+  "preferences.ExitOnClose": false,
+  "releaseNotesBanner.show": "1.22.0",
+  "welcome.version": "initial",
+  "telemetry.check": true,
+  "tasks.StatusBar": {
+    "remindAt": 1760732086427,
+    "disabled": false
+  },
+  "tasks.Manager": {
+    "remindAt": 1760732086428,
+    "disabled": false
+  },
+  "kubernetes.statesExperimental": {
+    "remindAt": 1760732086429,
+    "disabled": false
+  },
+  "statusbarProviders.showProviders": {
+    "remindAt": 1760732086429,
+    "disabled": false
+  },
+  "titleBar.searchBar": {
+    "remindAt": 1760732086429,
+    "disabled": false
+  },
+  "dockerCompatibility.enabled": true,
+  "window.bounds": {
+    "x": 0,
+    "y": 35,
+    "width": 1744,
+    "height": 946
+  }
+}
