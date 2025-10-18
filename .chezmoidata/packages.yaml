@@ -104,3 +104,4 @@ packages:
       - page.tesk.Refine
       - sh.loft.devpod
       - us.zoom.Zoom
+      - org.gnome.World.PikaBackup
