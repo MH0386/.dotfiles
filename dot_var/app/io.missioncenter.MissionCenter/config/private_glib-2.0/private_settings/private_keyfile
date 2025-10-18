@@ -1,0 +1,9 @@
+[io/missioncenter/MissionCenter]
+apps-page-column-order=''
+apps-page-sorting-column-name=''
+apps-page-sorting-order='Ascending'
+apps-page-show-column-separators=false
+window-height=400
+window-width=600
+performance-selected-page='memory'
+window-selected-page='performance-page'
