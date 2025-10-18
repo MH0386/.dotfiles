@@ -1,7 +1,58 @@
 {
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "gitlens.ai.model": "vscode",
-  "gitlens.ai.vscode.model": "copilot:gpt-4.1",
-  "files.autoSave": "afterDelay",
-  "editor.minimap.enabled": false
+    "chat.mcp.gallery.enabled": true,
+    "dev.containers.experimentalLockfile": true,
+    "doppler.autocomplete.enable": true,
+    "doppler.hover.enable": true,
+    "editor.fontFamily": "'Cascadia Code', 'Droid Sans Mono', 'monospace', monospace",
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "gitlens.ai.model": "gitkraken",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "terminal.integrated.mouseWheelZoom": true,
+    "update.mode": "none",
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "GitHub Dark Default",
+    "editor.defaultFormatter": "trunk.io",
+    "workbench.experimental.share.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.aiStats.enabled": true,
+    "git.fetchOnPull": true,
+    "github.gitProtocol": "ssh",
+    "github-actions.workflows.pinned.refresh.enabled": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "gemini-cli.debug.logging.enabled": true,
+    "geminicodeassist.inlineSuggestions.nextEditPredictions": true,
+    "files.associations": {
+        "compose-*.yaml": "dockercompose",
+        "*gitconfig": "properties",
+        "*zshrc": "shellscript",
+        "*.sh.tmpl":"shellscript",
+        "*.yaml.tmpl":"yaml",
+        "*ignore": "ignore"
+    },
+    "diffEditor.codeLens": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
+    "files.exclude": {
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    },
+    "files.watcherExclude": {
+        "**/.trunk/*actions/": true,
+        "**/.trunk/*logs/": true,
+        "**/.trunk/*notifications/": true,
+        "**/.trunk/*out/": true,
+        "**/.trunk/*plugins/": true
+    }
 }

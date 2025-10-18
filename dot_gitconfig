@@ -1,7 +1,5 @@
-[credential "https://github.com"]
-	helper = !/usr/bin/gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = !/usr/bin/gh auth git-credential
+[safe]
+	directory = /var/home/mohamed/Development/vocalizr
 [user]
 	name = Mohamed Hisham Abdelzaher
 	email = mohamed.hisham.abdelzaher@gmail.com
@@ -12,3 +10,5 @@
 	required = true
 [init]
 	defaultBranch = main
+[pull]
+	rebase = false

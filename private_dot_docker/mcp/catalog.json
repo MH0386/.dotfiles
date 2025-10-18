@@ -1,8 +1,0 @@
-{
-  "catalogs": {
-    "docker-mcp": {
-      "displayName": "Local Test Catalog",
-      "url": "/home/mohamed/Development/docker_mcp_registry/catalogs/qdrant/catalog.yaml"
-    }
-  }
-}

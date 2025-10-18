@@ -1,8 +1,0 @@
-<application>
-  <component name="JupyterDSSettings">
-    <option name="clearNotebooksWithoutOutputs" value="false" />
-    <option name="executionTimeShowMode" value="Detailed" />
-    <option name="showExecutionTimeOnExecutionLabel" value="true" />
-    <option name="showPythonCellsInStructure" value="true" />
-  </component>
-</application>
