@@ -149,13 +149,11 @@ alias c='clear'
 alias warp="warp-terminal"
 
 # Shell integrations
-eval "$(flox activate -d ~ -m run)"
 eval "$(fzf --zsh)"
 eval "$(starship init zsh)"
 eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 eval "$(task --completion zsh)"
-eval "$(fnm env --use-on-cd --shell zsh)"
 eval "$(ty generate-shell-completion zsh)"
 #source <(rg --generate complete-zsh)
 
