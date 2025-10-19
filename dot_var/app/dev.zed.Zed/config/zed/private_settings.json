@@ -7,8 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_size": 18,
-  "buffer_font_size": 18,
+  "ui_font_size": 20,
+  "buffer_font_size": 20,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",

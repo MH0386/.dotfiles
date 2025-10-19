@@ -12,7 +12,7 @@
     "git.confirmSync": false,
     "git.enableSmartCommit": true,
     "github.copilot.nextEditSuggestions.enabled": true,
-    "gitlens.ai.model": "gitkraken",
+    "gitlens.ai.model": "gemini:gemini-2.5-flash",
     "gitlens.ai.vscode.model": "copilot:gpt-4.1",
     "terminal.integrated.mouseWheelZoom": true,
     "update.mode": "none",
@@ -61,5 +61,10 @@
     "git.alwaysShowStagedChangesResourceGroup": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.showHiddenFiles": true,
+    "git.confirmNoVerifyCommit": false,
+    "geminicodeassist.updateChannel": "Default"
 }

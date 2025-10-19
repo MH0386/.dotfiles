@@ -84,6 +84,7 @@ x-scheme-handler/about=brave-browser.desktop
 x-scheme-handler/unknown=brave-browser.desktop
 application/json=code.desktop
 application/xml=code.desktop
+x-scheme-handler/beeper=beepertexts.desktop
 
 [Added Associations]
 text/html=code.desktop;userapp-Firefox-00EDE3.desktop;
