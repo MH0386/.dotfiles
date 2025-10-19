@@ -83,6 +83,7 @@ application/x-extension-xht=userapp-Firefox-00EDE3.desktop
 x-scheme-handler/about=brave-browser.desktop
 x-scheme-handler/unknown=brave-browser.desktop
 application/json=code.desktop
+application/xml=code.desktop
 
 [Added Associations]
 text/html=code.desktop;userapp-Firefox-00EDE3.desktop;
@@ -163,3 +164,6 @@ application/xhtml+xml=userapp-Firefox-00EDE3.desktop;
 application/x-extension-xhtml=userapp-Firefox-00EDE3.desktop;
 application/x-extension-xht=userapp-Firefox-00EDE3.desktop;
 application/json=org.gnome.TextEditor.desktop;dev.zed.Zed.desktop;code.desktop;
+application/xml=code.desktop;
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
