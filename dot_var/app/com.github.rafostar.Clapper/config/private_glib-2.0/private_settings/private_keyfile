@@ -6,4 +6,4 @@ adaptive-start-bitrate=0
 subtitles-enabled=true
 progression-mode=1
 maximized=false
-fullscreened=false
+fullscreened=true
