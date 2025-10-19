@@ -34,8 +34,8 @@
         "compose-*.yaml": "dockercompose",
         "*gitconfig": "properties",
         "*zshrc": "shellscript",
-        "*.sh.tmpl":"shellscript",
-        "*.yaml.tmpl":"yaml",
+        "*.sh.tmpl": "shellscript",
+        "*.yaml.tmpl": "yaml",
         "*ignore": "ignore"
     },
     "diffEditor.codeLens": true,
@@ -54,5 +54,12 @@
         "**/.trunk/*notifications/": true,
         "**/.trunk/*out/": true,
         "**/.trunk/*plugins/": true
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "errorLens.codeLensEnabled": true,
+    "git.allowNoVerifyCommit": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     }
 }
