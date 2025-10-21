@@ -150,6 +150,7 @@ alias vim='nvim'
 alias c='clear'
 alias warp="warp-terminal"
 alias meld="flatpak run org.gnome.meld"
+alias zed="flatpak run dev.zed.Zed"
 
 # Shell integrations
 eval "$(fzf --zsh)"
