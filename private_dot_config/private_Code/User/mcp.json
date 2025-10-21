@@ -1,0 +1,67 @@
+{
+  "servers": {
+    "microsoft/markitdown": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "markitdown-mcp==0.0.1a4"
+      ],
+      "gallery": "https://api.mcp.github.com/2025-09-15/v0/servers/976a2f68-e16c-4e2b-9709-7133487f8c14",
+      "version": "1.0.0"
+    },
+    "oraios/serena": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/oraios/serena",
+        "serena",
+        "start-mcp-server",
+        "serena==latest",
+        "--context",
+        "ide-assistant"
+      ],
+      "gallery": "https://api.mcp.github.com/2025-09-15/v0/servers/0658e342-7ae7-493a-b378-a324363ee322",
+      "version": "1.0.0"
+    },
+    "evalstate/hf-mcp-server": {
+      "type": "http",
+      "url": "https://huggingface.co/mcp?login",
+      "gallery": "https://api.mcp.github.com/2025-09-15/v0/servers/1094d85c-b89b-4a7b-a4da-74718f67d839",
+      "version": "1.0.0"
+    },
+    "apify/apify-mcp-server": {
+      "type": "http",
+      "url": "https://mcp.apify.com",
+      "gallery": "https://api.mcp.github.com/2025-09-15/v0/servers/1aef85cf-1597-47f1-84ae-3e9a771c2162",
+      "version": "0.0.1-seed"
+    },
+    "github/github-mcp-server": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/",
+      "gallery": "https://api.mcp.github.com/2025-09-15/v0/servers/ab12cd34-5678-90ef-1234-567890abcdef",
+      "version": "0.13.0"
+    },
+    "upstash/context7": {
+      "type": "http",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "${input:context7_api_key}"
+      },
+      "gallery": "https://api.mcp.github.com/2025-09-15/v0/servers/dcec7705-b81b-4e0f-8615-8032604be7ad",
+      "version": "1.0.0"
+    },
+    "byterover-mcp": {
+      "type": "http",
+      "url": "https://mcp.byterover.dev/mcp?machineId=1f0add72-1443-6f20-b384-45de2a340ae7"
+    }
+  },
+  "inputs": [
+    {
+      "id": "context7_api_key",
+      "type": "promptString",
+      "description": "Context7 API key (optional; increases rate limits). Get one at https://context7.com/dashboard",
+      "password": true
+    }
+  ]
+}
