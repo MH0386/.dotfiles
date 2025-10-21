@@ -94,6 +94,8 @@ zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 zinit light matthiasha/zsh-uv-env
 
+zinit load atuinsh/atuin
+
 # Add in snippets
 zinit snippet OMZL::git.zsh
 zinit snippet OMZP::git
@@ -147,6 +149,7 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 alias warp="warp-terminal"
+alias meld="flatpak run org.gnome.meld"
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -155,6 +158,9 @@ eval "$(direnv hook zsh)"
 eval "$(zoxide init zsh)"
 eval "$(task --completion zsh)"
 eval "$(ty generate-shell-completion zsh)"
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
+eval "$(atuin init zsh)"
 #source <(rg --generate complete-zsh)
 
 EDITOR=code
