@@ -26,8 +26,13 @@
   "dockerCompatibility.enabled": true,
   "window.bounds": {
     "x": 0,
-    "y": 11,
-    "width": 582,
-    "height": 316
-  }
+    "y": 35,
+    "width": 1920,
+    "height": 1045
+  },
+  "editor.integrated.fontSize": 20,
+  "window.restorePosition": false,
+  "preferences.zoomLevel": 1,
+  "tasks.Toast": true,
+  "docker.config": "/var/home/mohamed/.docker"
 }
