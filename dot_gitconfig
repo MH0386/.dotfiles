@@ -14,7 +14,7 @@
 	rebase = false
 [core]
 	pager = delta
-	sshCommand = 'C:\\Windows\\System32\\OpenSSH\\ssh.exe'
+	sshCommand = 'C:/Windows/System32/OpenSSH/ssh.exe'
 [interactive]
 	diffFilter = delta --color-only
 [delta]
