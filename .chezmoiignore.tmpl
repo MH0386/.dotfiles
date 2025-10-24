@@ -1,10 +1,11 @@
 README.md
 .trunk
 
-{{- if eq .chezmoi.os "windows" -}}
-dot_zshrc
-dot_var/
-private_dot_config/
+{{ if eq .chezmoi.os "windows" }}
+.zshrc
+.var/
+.config/*
+!.config/scoop
 Documents/*
 !Documents/*PowerShell/
-{{- end }}
+{{ end }}
