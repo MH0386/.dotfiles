@@ -1,4 +1,6 @@
+{{- if eq .chezmoi.os "linux" -}}
 [".oh-my-zsh"]
 type = "git-repo"
 url = "https://github.com/ohmyzsh/ohmyzsh"
 refreshPeriod = "168h"
+{{- end -}}
