@@ -1,29 +1,18 @@
 {
+  "context": { "fileName": ["AGENTS.md", "CONTEXT.md", "GEMINI.md"] },
   "general": {
-    "checkpointing": {
-      "enabled": true
-    }
+    "checkpointing": { "enabled": true },
+    "enablePromptCompletion": true
   },
-  "ide": {
-    "enabled": true,
-    "hasSeenNudge": true
-  },
+  "ide": { "enabled": true, "hasSeenNudge": true },
   "mcpServers": {
-    "context7": {
-      "headers": {
-        // "CONTEXT7_API_KEY": "YOUR_API_KEY",
-        "Accept": "application/json, text/event-stream"
-      },
-      "httpUrl": "https://mcp.context7.com/mcp"
+    "agno-docs": { "httpUrl": "https://docs.agno.com/mcp" },
+    "gradio-docs": {
+      "url": "https://gradio-docs-mcp.hf.space/gradio_api/mcp/sse"
     },
-    "fetch": {
-      "args": ["mcp-server-fetch"],
-      "command": "uvx"
-    },
-    "git": {
-      "args": ["mcp-server-git"],
-      "command": "uvx"
-    },
+    "byterover-mcp": { "httpUrl": "https://mcp.byterover.dev/v2/mcp" },
+    "fetch": { "args": ["mcp-server-fetch"], "command": "uvx" },
+    "git": { "args": ["mcp-server-git"], "command": "uvx" },
     "memory": {
       "args": ["-y", "@modelcontextprotocol/server-memory"],
       "command": "npx"
@@ -32,28 +21,16 @@
       "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"],
       "command": "npx"
     },
-    "time": {
-      "args": ["mcp-server-time"],
-      "command": "uvx"
-    }
+    "time": { "args": ["mcp-server-time"], "command": "uvx" }
   },
-  "output": {
-    "format": "text"
-  },
-  "security": {
-    "auth": {
-      "selectedType": "oauth-personal"
-    }
-  },
-  "tools": {
-    "shell": {
-      "showColor": true
-    }
-  },
+  "output": { "format": "text" },
+  "security": { "auth": { "selectedType": "oauth-personal" } },
+  "tools": { "shell": { "showColor": true } },
   "ui": {
     "showCitations": true,
     "showLineNumbers": true,
     "showMemoryUsage": true,
-    "showStatusInTitle": true
+    "showStatusInTitle": true,
+    "useFullWidth": true
   }
 }
