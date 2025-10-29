@@ -1,0 +1,38 @@
+version: 0.1
+cli:
+  version: 1.25.0
+plugins:
+  sources:
+    - id: trunk
+      ref: v1.7.3
+      uri: https://github.com/trunk-io/plugins
+runtimes:
+  enabled:
+    - node@22.16.0
+    - python@3.10.8
+lint:
+  enabled:
+    - psscriptanalyzer@1.24.0
+    - stylua@2.3.0
+    - gitleaks@8.28.0
+    - renovate@41.165.2
+    - pre-commit-hooks@6.0.0
+    - trufflehog-git@3.90.12
+    - yamlfmt@0.20.0
+    - markdownlint@0.45.0
+    - checkov@3.2.488
+    - git-diff-check
+    - taplo@0.10.0
+    - trufflehog@3.90.12
+    - yamllint@1.37.1
+  disabled:
+    - prettier
+actions:
+  enabled:
+    - trunk-upgrade-available
+    - trunk-announce
+    - trunk-fmt-pre-commit
+tools:
+  enabled:
+    - converttosarif@1.0.0
+    - pwsh@7.5.4

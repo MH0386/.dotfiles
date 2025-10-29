@@ -2,6 +2,9 @@
 $env:PATH = [Environment]::GetEnvironmentVariable("PATH","Machine") + ";" + [Environment]::GetEnvironmentVariable("PATH","User")
 
 Invoke-Expression (&starship init powershell)
+(& uv generate-shell-completion powershell) | Out-String | Invoke-Expression
+(& uvx --generate-shell-completion powershell) | Out-String | Invoke-Expression
+(& atuin gen-completions -s powershell) | Out-String | Invoke-Expression
 
 $prompt = ""
 function Invoke-Starship-PreCommand {
@@ -14,6 +17,9 @@ function Invoke-Starship-PreCommand {
     $host.ui.Write($prompt)
 }
 
-(& uv generate-shell-completion powershell) | Out-String | Invoke-Expression
-(& uvx --generate-shell-completion powershell) | Out-String | Invoke-Expression
-(& atuin gen-completions -s powershell) | Out-String | Invoke-Expression
+$env:CARAPACE_BRIDGES = 'zsh,fish,bash,inshellisense' # optional
+Set-PSReadLineOption -Colors @{ "Selection" = "`e[7m" }
+Set-PSReadlineKeyHandler -Key Tab -Function MenuComplete
+carapace _carapace | Out-String | Invoke-Expression
+
+Invoke-Expression (& { (zoxide init powershell | Out-String) })

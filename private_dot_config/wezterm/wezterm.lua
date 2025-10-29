@@ -1,5 +1,5 @@
 -- Pull in the wezterm API
-local wezterm = require 'wezterm'
+local wezterm = require("wezterm")
 
 -- This will hold the configuration.
 local config = wezterm.config_builder()
@@ -12,10 +12,10 @@ config.initial_rows = 28
 
 -- or, changing the font size and color scheme.
 config.font_size = 15
-config.font = wezterm.font 'JetBrains Mono'
-config.default_prog = { 'pwsh' }
+config.font = wezterm.font("JetBrains Mono")
+config.default_prog = { "pwsh" }
 config.keys = {
-  { key = 'l', mods = 'ALT', action = wezterm.action.ShowLauncher },
+	{ key = "l", mods = "ALT", action = wezterm.action.ShowLauncher },
 }
 -- Finally, return the configuration to wezterm:
 return config

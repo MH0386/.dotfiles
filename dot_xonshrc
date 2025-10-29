@@ -5,3 +5,10 @@ xontrib load coreutils
 # XONSH WEBCONFIG END
 
 execx($(atuin init xonsh))
+
+# ${UserConfigDir}/xonsh/rc.xsh
+$CARAPACE_BRIDGES='zsh,fish,bash,inshellisense' # optional
+$COMPLETIONS_CONFIRM=True
+exec($(carapace _carapace))
+
+execx($(zoxide init xonsh), 'exec', __xonsh__.ctx, filename='zoxide')

@@ -1,18 +1,11 @@
 {
   "gemini-cli-security": {
-    "overrides": [
-      "/home/mohamed/*",
-      "/C:/Users/moham/*"
-    ]
+    "overrides": ["/home/mohamed/*", "/C:/Users/moham/*"]
   },
   "context7": {
-    "overrides": [
-      "/C:/Users/moham/*"
-    ]
+    "overrides": ["/C:/Users/moham/*"]
   },
   "code-review": {
-    "overrides": [
-      "/C:/Users/moham/*"
-    ]
+    "overrides": ["/C:/Users/moham/*"]
   }
 }
