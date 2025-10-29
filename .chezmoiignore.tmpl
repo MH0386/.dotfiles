@@ -1,5 +1,7 @@
 README.md
 .trunk
+.github
+.gitignore
 
 {{ if eq .chezmoi.os "windows" }}
 .zshrc
@@ -7,6 +9,7 @@ README.md
 .config/*
 !.config/scoop
 !.config/wezterm
+!.config/atuin
 Documents/*
 !Documents/*PowerShell/
 {{ end }}
