@@ -26,3 +26,5 @@
     true-color = always
 [merge]
 	conflictStyle = zdiff3
+[core]
+	autocrlf = false
