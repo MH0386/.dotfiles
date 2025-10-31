@@ -13,3 +13,9 @@ README.md
 Documents/*
 !Documents/*PowerShell/
 {{ end }}
+
+{{ if eq .chezmoi.os "linux" }}
+AppData/
+OneDrive/
+.docker/windows-daemon.json
+{{ end }}

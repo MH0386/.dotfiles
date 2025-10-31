@@ -38,7 +38,7 @@ x=0
 y=0
 
 [org/gnome/evolution]
-version='3.58.0'
+version='3.58.1'
 
 [org/gnome/evolution/shell]
 default-component-id='mail'
@@ -47,6 +47,18 @@ default-component-id='mail'
 primary-addressbook='11506ab56348138ed84a7529aabc9c03bd09d7d0'
 completion-show-address=true
 open-map-target='google'
+completion-minimum-query-length=3
 
 [org/gnome/evolution/plugin/mail-notification]
 notify-sound-beep=false
+
+[org/gtk/settings/color-chooser]
+selected-color=(true, 0.0, 0.0, 0.0, 1.0)
+
+[org/gnome/evolution-data-server/calendar]
+reminders-past=[]
+
+[org/gnome/evolution/mail/composer-window]
+maximized=false
+width=600
+height=500
