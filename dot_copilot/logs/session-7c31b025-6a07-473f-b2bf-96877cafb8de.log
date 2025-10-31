@@ -1,0 +1,35 @@
+2025-10-31T14:00:04.896Z [INFO] Starting Copilot CLI: 0.0.346
+Commit: 74e4d22
+2025-10-31T14:00:04.896Z [INFO] Node.js version: v22.20.0
+2025-10-31T14:00:06.032Z [LOG] Using Copilot API endpoint: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-31T14:00:06.033Z [LOG] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-31T14:00:06.033Z [LOG] Creating MCP client for github-mcp-server...
+2025-10-31T14:00:06.037Z [LOG] Connecting MCP client for github-mcp-server...
+2025-10-31T14:00:06.783Z [LOG] MCP client for github-mcp-server connected, took 746ms
+2025-10-31T14:00:06.783Z [LOG] Started MCP client for remote server github-mcp-server
+2025-10-31T14:00:06.783Z [LOG] GitHub MCP server configured after authentication
+2025-10-31T18:27:47.631Z [LOG] Starting remote MCP client for context7 with url: https://mcp.context7.com/mcp
+2025-10-31T18:27:47.631Z [LOG] Creating MCP client for context7...
+2025-10-31T18:27:47.634Z [LOG] Connecting MCP client for context7...
+2025-10-31T18:27:49.018Z [LOG] MCP client for context7 connected, took 1384ms
+2025-10-31T18:27:49.018Z [LOG] Started MCP client for remote server context7
+2025-10-31T18:27:49.036Z [LOG] MCP transport for github-mcp-server closed
+2025-10-31T18:27:49.036Z [LOG] MCP client for github-mcp-server closed
+2025-10-31T18:27:49.461Z [LOG] Using Copilot API endpoint: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-31T18:27:49.461Z [LOG] Starting remote MCP client for github-mcp-server with url: https://api.individual.githubcopilot.com/mcp/readonly
+2025-10-31T18:27:49.462Z [LOG] Creating MCP client for github-mcp-server...
+2025-10-31T18:27:49.464Z [LOG] Connecting MCP client for github-mcp-server...
+2025-10-31T18:27:50.317Z [LOG] MCP client for github-mcp-server connected, took 853ms
+2025-10-31T18:27:50.317Z [LOG] Started MCP client for remote server github-mcp-server
+2025-10-31T18:27:50.317Z [LOG] GitHub MCP server configured after authentication
+2025-10-31T18:32:50.018Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T18:37:52.400Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T18:42:54.789Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T18:47:57.160Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T18:52:59.468Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T18:58:01.850Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T19:03:04.329Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T19:08:06.738Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T19:13:09.220Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T19:18:11.661Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
+2025-10-31T19:23:14.100Z [ERROR] MCP client for context7 errored Error: SSE stream disconnected: TypeError: terminated
