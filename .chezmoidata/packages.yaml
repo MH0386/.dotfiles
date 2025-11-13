@@ -92,7 +92,7 @@ packages:
       - ubuntu-restricted-addons
       - zram-tools
       - ubuntu-restricted-extras
-      - gnome-tweaks
+      # - gnome-tweaks
       - flatpak
       - gnome-software-plugin-flatpak
       - podman
@@ -110,7 +110,7 @@ packages:
       - python3-nautilus
       - python3-psutil
       - libglib2.0-bin
-      - dconf-editor
+      # - dconf-editor
       - gparted
       - fzf
       - bat
@@ -119,4 +119,4 @@ packages:
       - apt-transport-https
       - ca-certificates
       - gnupg
-      - gnome-sushi
+      # - gnome-sushi
