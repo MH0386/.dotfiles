@@ -94,7 +94,7 @@ packages:
       - ubuntu-restricted-extras
       # - gnome-tweaks
       - flatpak
-      - gnome-software-plugin-flatpak
+      # - gnome-software-plugin-flatpak
       - podman
       - neofetch
       - libfuse2
