@@ -80,7 +80,7 @@ packages:
       - make
       - clang
       - direnv
-      - btrfs-assistant
+      # - btrfs-assistant
       - zsh
       - python3-dev
       - zip
