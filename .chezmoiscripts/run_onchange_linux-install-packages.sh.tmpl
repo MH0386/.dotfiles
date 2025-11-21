@@ -3,31 +3,40 @@
 
 set -e
 
-if command -v apt >/dev/null; then
-    echo "Updating apt cache..."
-    sudo apt update
-
-    # Install all packages in one apt install command for efficiency
-    echo "Installing apt packages..."
-    sudo apt install -y {{- range .packages.linux.apt }} {{ . | quote }} {{- end }}
-elif command -v dnf >/dev/null && (. /etc/os-release && [ "$ID" != "bluefin" ]); then
-    echo "Updating dnf cache..."
-    sudo dnf clean all
-
-    # Install all packages in one dnf install command for efficiency
-    echo "Installing dnf packages..."
-    sudo dnf install -y {{- range .packages.linux.dnf }} {{ . | quote }} {{- end }}
+if ! command -v pacman >/dev/null; then
+    if command -v apt >/dev/null; then
+        echo "Updating apt cache..."
+        sudo apt update
+        # Install all packages in one apt install command for efficiency
+        echo "Installing apt packages..."
+        sudo apt install -y {{- range .packages.linux.apt }} {{ . | quote }} {{- end }}
+    elif command -v dnf >/dev/null && (. /etc/os-release && [ "$ID" != "bluefin" ]); then
+        echo "Updating dnf cache..."
+        sudo dnf clean all
+        # Install all packages in one dnf install command for efficiency
+        echo "Installing dnf packages..."
+        sudo dnf install -y {{- range .packages.linux.dnf }} {{ . | quote }} {{- end }}
+    fi
+    
+    if command -v flatpak >/dev/null; then
+        echo "Updating flatpak cache..."
+        flatpak update
+        # Install all packages in one flatpak install command for efficiency
+        echo "Installing flatpak packages..."
+        {{- range .packages.linux.flatpak }}
+            flatpak install flathub -y  {{ . | quote }}
+        {{- end }}
+    fi
 fi
-
-if command -v flatpak >/dev/null; then
-    echo "Updating flatpak cache..."
-    flatpak update
-
-    # Install all packages in one flatpak install command for efficiency
-    echo "Installing flatpak packages..."
-    {{- range .packages.linux.flatpak }}
-        flatpak install flathub -y  {{ . | quote }}
-    {{- end }}
+if command -v pacman >/dev/null; then
+    echo "Updating pacman cache..."
+    sudo pacman -Syu
+    if command -v paru >/dev/null; then
+        echo "Updating pacman cache..."
+        sudo paru -Syu
+        # Install all packages in one paru install command for efficiency
+        sudo paru -S {{- range .packages.linux.paru }} {{ . | quote }} {{- end }}
+    fi
 fi
 
 {{- end -}}
