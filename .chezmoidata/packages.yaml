@@ -1,5 +1,68 @@
 packages:
   linux:
+    paru:
+      - parui
+      - yazi 
+      - ffmpeg
+      - 7zip
+      - jq
+      - poppler
+      - fd
+      - ripgrep
+      - fzf 
+      - zoxide 
+      - resvg 
+      - imagemagick
+      - flatseal
+      - chezmoi
+      - bazaar
+      - ttf-nerd-fonts-symbols-mono
+      - wezterm
+      # - gnome-tweaks
+      # - gnome-themes-extra 
+      # - gnome-desktop 
+      # - gnome-shell-extension-dash-to-panel 
+      # - gnome-shell-extension-pop-shell 
+      # - gnome-shell-extension-desktop-icons-ng
+      # - gnome-shell-extension-caffeine 
+      # - gnome-shell-extension-appindicator
+      - warp-terminal
+      - cosmic-ext-tweaks
+      - cosmic-ext-forecast 
+      - cosmic-ext-applet-updates
+      - cosmic-ext-applet-system-monitor 
+      - cosmic-ext-applet-sysinfo 
+      - cosmic-ext-applet-privacy-indicator 
+      - cosmic-ext-applet-ollama
+      - cosmic-ext-applet-logomenu-git 
+      - cosmic-ext-applet-emoji-selector-git 
+      - cosmic-ext-applet-cpu-temperature 
+      - cosmic-ext-applet-caffeine 
+      - cosmic-ext-applet-apps-menu cosmic-ctl
+      - cosmic-applet-package-updater
+      - cosmic-applet-music-player 
+      - cosmic-wallpapers 
+      - cosmic-ext-calculator 
+      - cosmic-store 
+      - cosmic-player 
+      - minimon-applet-for-cosmic 
+      - cosmic-screenshot 
+      - cosmic-greeter
+      - cosmic-store
+      - xdg-desktop-portal-cosmic
+      - antigravity
+      - colloid-gtk-theme
+      - uv
+      - archlinux-tweak-tool-git
+      - flatpak
+      - mission-center
+      - cuda
+      - visual-studio-code-bin
+      - docker-desktop
+      - portainer
+      - shotwell
+      - zen-browser
+      - ab-download-manager
     flatpak:
       - app.fotema.Fotema
       - com.bitwarden.desktop
