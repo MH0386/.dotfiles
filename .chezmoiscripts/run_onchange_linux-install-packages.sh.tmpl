@@ -35,7 +35,7 @@ if command -v pacman >/dev/null; then
         echo "Updating pacman cache..."
         sudo paru -Syu
         # Install all packages in one paru install command for efficiency
-        sudo paru -S {{- range .packages.linux.paru }} {{ . | quote }} {{- end }}
+        sudo paru -S --needed {{- range .packages.linux.paru }} {{ . | quote }} {{- end }}
     fi
 fi
 
