@@ -30,7 +30,7 @@ if ! command -v pacman >/dev/null; then
 fi
 if command -v pacman >/dev/null; then
     echo "Updating pacman cache..."
-    pacman -Syu
+    sudo pacman -Syu
     if command -v paru >/dev/null; then
         echo "Updating pacman cache..."
         paru -Syu
