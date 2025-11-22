@@ -1,6 +1,7 @@
 packages:
   linux:
     paru:
+      - opencode
       - parui
       - yazi 
       - ffmpeg
