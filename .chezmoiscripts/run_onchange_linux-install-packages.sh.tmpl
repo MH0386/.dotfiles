@@ -30,12 +30,12 @@ if ! command -v pacman >/dev/null; then
 fi
 if command -v pacman >/dev/null; then
     echo "Updating pacman cache..."
-    sudo pacman -Syu
+    pacman -Syu
     if command -v paru >/dev/null; then
         echo "Updating pacman cache..."
-        sudo paru -Syu
+        paru -Syu
         # Install all packages in one paru install command for efficiency
-        sudo paru -S --needed {{- range .packages.linux.paru }} {{ . | quote }} {{- end }}
+        paru -S --needed {{- range .packages.linux.paru }} {{ . | quote }} {{- end }}
     fi
 fi
 
