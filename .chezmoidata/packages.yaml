@@ -39,7 +39,8 @@ packages:
       - cosmic-ext-applet-emoji-selector-git 
       - cosmic-ext-applet-cpu-temperature 
       - cosmic-ext-applet-caffeine 
-      - cosmic-ext-applet-apps-menu cosmic-ctl
+      - cosmic-ext-applet-apps-menu 
+      - cosmic-ctl
       - cosmic-applet-package-updater
       - cosmic-applet-music-player 
       - cosmic-wallpapers 
