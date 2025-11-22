@@ -20,5 +20,6 @@ OneDrive/
 .docker/windows-daemon.json
   {{ if eq .chezmoi.osRelease.id "cachyos" }}
   .config/appman
+  .var
   {{ end }}
 {{ end }}
