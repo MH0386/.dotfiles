@@ -15,9 +15,9 @@
 [core]
 	pager = delta
 	autocrlf = false
-	{{ if eq .chezmoi.os "windows" }}
+{{ if eq .chezmoi.os "windows" }}
 	sshCommand = 'C:/Windows/System32/OpenSSH/ssh.exe'
-	{{ end }}
+{{ end }}
 [interactive]
 	diffFilter = delta --color-only
 [delta]
