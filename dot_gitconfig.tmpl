@@ -14,7 +14,9 @@
 	rebase = false
 [core]
 	pager = delta
+	{{ if eq .chezmoi.os "windows" }}
 	sshCommand = 'C:/Windows/System32/OpenSSH/ssh.exe'
+	{{ end }}
 [interactive]
 	diffFilter = delta --color-only
 [delta]
