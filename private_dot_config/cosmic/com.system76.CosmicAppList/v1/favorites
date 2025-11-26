@@ -1,6 +1,7 @@
 [
     "zen",
     "com.system76.CosmicFiles",
-    "com.system76.CosmicTerm",
+    "com.mitchellh.ghostty",
     "Code",
+    "dev.zed.Zed",
 ]
