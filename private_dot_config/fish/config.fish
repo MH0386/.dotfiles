@@ -8,3 +8,7 @@ end
 
 # uv
 fish_add_path "/home/mohamed/.local/bin"
+
+if status --is-interactive
+    atuin init fish | source
+end
