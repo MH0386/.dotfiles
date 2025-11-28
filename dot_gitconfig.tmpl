@@ -18,12 +18,6 @@
 	defaultBranch = main
 [pull]
 	rebase = false
-[core]
-	pager = delta
-	autocrlf = false
-{{ if eq .chezmoi.os "windows" }}
-	sshCommand = 'C:/Windows/System32/OpenSSH/ssh.exe'
-{{ end }}
 [interactive]
 	diffFilter = delta --color-only
 [delta]
@@ -35,3 +29,9 @@
     true-color = always
 [merge]
 	conflictStyle = zdiff3
+[core]
+	pager = delta
+	autocrlf = false
+{{ if eq .chezmoi.os "windows" }}
+	sshCommand = 'C:/Windows/System32/OpenSSH/ssh.exe'
+{{ end }}
