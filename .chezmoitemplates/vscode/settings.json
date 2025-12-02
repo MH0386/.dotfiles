@@ -195,7 +195,6 @@
   "git.replaceTagsWhenPull": true,
   "github-actions.workflows.pinned.refresh.enabled": true,
   "github.copilot.nextEditSuggestions.enabled": true,
-  "github.gitProtocol": "ssh",
   "githubPullRequests.pullBranch": "never",
   "gitlens.ai.gitkraken.model": "gemini:gemini-2.0-flash",
   "gitlens.ai.model": "gemini:gemini-2.5-flash",
@@ -303,5 +302,13 @@
   "[shellscript]": {
     "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
   },
-  "window.zoomLevel": 1
+  "semanticdiff.defaultDiffViewer": "all",
+  "semanticdiff.diff.compareMovedCode": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "redhat.telemetry.enabled": true,
+  "editor.fontSize": 16,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  }
 }
