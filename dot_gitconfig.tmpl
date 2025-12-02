@@ -16,19 +16,9 @@
 	defaultBranch = main
 [pull]
 	rebase = false
-[interactive]
-	diffFilter = delta --color-only
-[delta]
-	navigate = true
-    line-numbers = true
-    hyperlinks = true
-    hyperlinks-file-link-format = "vscode://file/{path}:{line}"
-    side-by-side = true
-    true-color = always
 [merge]
 	conflictStyle = zdiff3
 [core]
-	pager = delta
 	autocrlf = false
 {{ if eq .chezmoi.os "windows" }}
 	sshCommand = 'C:/Windows/System32/OpenSSH/ssh.exe'
