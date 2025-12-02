@@ -1,6 +1,9 @@
 {{- if eq .chezmoi.os "linux" -}}
+{{- if ne .chezmoi.osRelease.id "cachyos" -}}
+
 [".oh-my-zsh"]
 type = "git-repo"
 url = "https://github.com/ohmyzsh/ohmyzsh"
 refreshPeriod = "168h"
+{{- end -}}
 {{- end -}}
