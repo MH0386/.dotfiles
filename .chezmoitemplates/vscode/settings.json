@@ -17,123 +17,28 @@
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff"
   },
+  "[shellscript]": {
+    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
   "chat.agent.todoList": {
     "position": "default"
   },
+  "chat.agentSessionsViewLocation": "view",
   "chat.checkpoints.showFileChanges": true,
   "chat.edits2.enabled": true,
   "chat.emptyState.history.enabled": true,
   "chat.mcp.gallery.enabled": true,
-  "chat.tools.terminal.autoApprove": {
-    "/\\(.+\\)/s": {
-      "approve": false,
-      "matchCommandLine": true
-    },
-    "/\\{.+\\}/s": {
-      "approve": false,
-      "matchCommandLine": true
-    },
-    "/`.+`/s": {
-      "approve": false,
-      "matchCommandLine": true
-    },
-    "/^column\\b.*-c\\s+[0-9]{4,}/": false,
-    "/^Compare-[a-z0-9]/i": true,
-    "/^date\\b.*(-s|--set)\\b/": false,
-    "/^find\\b.*-(delete|exec|execdir|fprint|fprintf|fls|ok|okdir)\\b/": false,
-    "/^Format-[a-z0-9]/i": true,
-    "/^git branch\\b.*-(d|D|m|M|-delete|-force)\\b/": false,
-    "/^Measure-[a-z0-9]/i": true,
-    "/^Select-[a-z0-9]/i": true,
-    "/^Sort-[a-z0-9]/i": true,
-    "/^sort\\b.*-(o|S)\\b/": false,
-    "/^tree\\b.*-o\\b/": false,
-    "basename": true,
-    "cat": true,
-    "cd": true,
-    "chmod": false,
-    "chown": false,
-    "cmp": true,
-    "column": true,
-    "curl": false,
-    "cut": true,
-    "date": true,
-    "dd": false,
-    "del": false,
-    "df": true,
-    "dirname": true,
-    "du": true,
-    "echo": true,
-    "erase": false,
-    "eval": false,
-    "file": true,
-    "find": true,
-    "findstr": true,
-    "Get-ChildItem": true,
-    "Get-Content": true,
-    "Get-Date": true,
-    "Get-Location": true,
-    "Get-Random": true,
-    "git branch": true,
-    "git checkout": true,
-    "git diff": true,
-    "git grep": true,
-    "git log": true,
-    "git show": true,
-    "git status": true,
-    "grep": true,
-    "head": true,
-    "iex": false,
-    "Invoke-Expression": false,
-    "Invoke-RestMethod": false,
-    "Invoke-WebRequest": false,
-    "irm": false,
-    "iwr": false,
-    "Join-Path": true,
-    "jq": false,
-    "kill": false,
-    "ls": true,
-    "ps": false,
-    "pwd": true,
-    "rd": false,
-    "readlink": true,
-    "realpath": true,
-    "Remove-Item": false,
-    "ri": false,
-    "rm": false,
-    "rmdir": false,
-    "Set-Acl": false,
-    "Set-ItemProperty": false,
-    "sleep": true,
-    "sort": true,
-    "sp": false,
-    "Split-Path": true,
-    "spps": false,
-    "Start-Sleep": true,
-    "stat": true,
-    "Stop-Process": false,
-    "tail": true,
-    "taskkill": false,
-    "taskkill.exe": false,
-    "top": false,
-    "tr": true,
-    "tree": true,
-    "wc": true,
-    "wget": false,
-    "Where-Object": true,
-    "which": true,
-    "Write-Host": true,
-    "Write-Output": true,
-    "xargs": false
-  },
   "chat.useCloudButtonV2": true,
   "chat.useNestedAgentsMdFiles": true,
-  "circleci.hostUrl": "",
   "diffEditor.codeLens": true,
   "diffEditor.experimental.showMoves": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.maxComputationTime": 0,
+  "docker.extension.enableComposeLanguageServer": false,
   "doppler.autocomplete.enable": true,
   "doppler.hover.enable": true,
   "editor.aiStats.enabled": true,
@@ -146,8 +51,8 @@
     "source.sort.json": "always",
     "source.unusedImports": "always"
   },
-  "editor.defaultFormatter": "trunk.io",
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, ZedMono Nerd Font Mono, monospace",
+  "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
@@ -156,30 +61,16 @@
   "errorLens.codeLensEnabled": true,
   "explorer.confirmDelete": false,
   "files.associations": {
-    ".xonshrc": "xonsh",
     "*.sh.tmpl": "shellscript",
     "*.yaml.tmpl": "yaml",
     "*gitconfig": "properties",
     "*ignore": "ignore",
     "*zshrc": "shellscript",
+    ".xonshrc": "xonsh",
     "compose-*.yaml": "dockercompose",
     "dot_xonshrc": "xonsh"
   },
   "files.autoSave": "afterDelay",
-  "files.exclude": {
-    "**/.trunk/*actions/": true,
-    "**/.trunk/*logs/": true,
-    "**/.trunk/*notifications/": true,
-    "**/.trunk/*out/": true,
-    "**/.trunk/*plugins/": true
-  },
-  "files.watcherExclude": {
-    "**/.trunk/*actions/": true,
-    "**/.trunk/*logs/": true,
-    "**/.trunk/*notifications/": true,
-    "**/.trunk/*out/": true,
-    "**/.trunk/*plugins/": true
-  },
   "gemini-cli.debug.logging.enabled": true,
   "geminicodeassist.inlineSuggestions.nextEditPredictions": true,
   "geminicodeassist.updateChannel": "Default",
@@ -231,26 +122,6 @@
   ],
   "security.promptForLocalFileProtocolHandling": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "snyk.folderConfigs": [
-    {
-      "baseBranch": "main",
-      "folderPath": "/home/mohamed/Development/visualizr",
-      "localBranches": [
-        "ci",
-        "error_handling",
-        "main",
-        "pycrucible",
-        "settings",
-        "vscode"
-      ]
-    }
-  ],
-  "snyk.securityAtInception.autoConfigureSnykMcpServer": true,
-  "snyk.securityAtInception.executionFrequency": "On Code Generation",
-  "snyk.trustedFolders": [
-    "/home/mohamed/Development/visualizr"
-  ],
-  "terminal.external.windowsExec": "C:/Users/moham/AppData/Local/Programs/nu/bin/nu.exe",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.defaultProfile.linux": "zsh",
@@ -271,7 +142,7 @@
       "path": "fish"
     },
     "nu": {
-      "path": "/usr/bin/nu"
+      "path": "nu"
     },
     "pwsh": {
       "icon": "terminal-powershell",
@@ -297,18 +168,7 @@
   },
   "update.mode": "none",
   "window.titleBarStyle": "custom",
-  "workbench.experimental.share.enabled": true,
-  "chat.agentSessionsViewLocation": "view",
-  "[shellscript]": {
-    "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
-  },
-  "semanticdiff.defaultDiffViewer": "all",
-  "semanticdiff.diff.compareMovedCode": true,
-  "docker.extension.enableComposeLanguageServer": false,
-  "redhat.telemetry.enabled": true,
-  "editor.fontSize": 16,
+  "window.zoomLevel": 1,
   "workbench.colorTheme": "GitHub Dark Default",
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
-  }
+  "workbench.experimental.share.enabled": true
 }
