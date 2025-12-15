@@ -1,0 +1,25 @@
+{
+    "id": 0,
+    "name": "Main",
+    "maxConcurrent": 2,
+    "queueItems": [
+        7,
+        8
+    ],
+    "scheduledTimes": {
+        "daysOfWeek": [
+            "MONDAY",
+            "TUESDAY",
+            "WEDNESDAY",
+            "THURSDAY",
+            "FRIDAY",
+            "SATURDAY",
+            "SUNDAY"
+        ],
+        "startTime": "02:30",
+        "endTime": "07:30",
+        "enabledStartTime": false,
+        "enabledEndTime": false
+    },
+    "stopQueueOnEmpty": false
+}

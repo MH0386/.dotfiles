@@ -1,0 +1,33 @@
+{
+    "link": "https://github-production-user-asset-6210df.s3.amazonaws.com/46610810/455228581-3a03e859-c6b9-4c4b-bf7f-ab610b94eb28.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20251119%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20251119T155724Z&X-Amz-Expires=300&X-Amz-Signature=72533798fb7d807a5caf4d5da0be0ded287cdb88626125215e839261edf7bad7&X-Amz-SignedHeaders=host",
+    "headers": {
+        "Host": "github-production-user-asset-6210df.s3.amazonaws.com",
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:145.0) Gecko/20100101 Firefox/145.0",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Accept-Encoding": "gzip, deflate, br, zstd",
+        "Sec-GPC": "1",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1",
+        "Sec-Fetch-Dest": "document",
+        "Sec-Fetch-Mode": "navigate",
+        "Sec-Fetch-Site": "none",
+        "Sec-Fetch-User": "?1"
+    },
+    "username": null,
+    "password": null,
+    "downloadPage": "about:blank",
+    "userAgent": null,
+    "id": 1,
+    "folder": "/home/mohamed/Downloads/ABDM/Videos",
+    "name": "455228581-3a03e859-c6b9-4c4b-bf7f-ab610b94eb28.mp4",
+    "contentLength": 4865639,
+    "serverETag": null,
+    "dateAdded": 1763567851820,
+    "startTime": 1763567852224,
+    "completeTime": 1763567887250,
+    "status": "Completed",
+    "preferredConnectionCount": null,
+    "speedLimit": 0,
+    "fileChecksum": null
+}
