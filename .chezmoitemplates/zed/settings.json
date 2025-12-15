@@ -22,22 +22,29 @@
     }
   },
   "context_servers": {
+    "mcp-server-github": {
+      "enabled": true,
+      "settings": {
+        "github_personal_access_token": "GITHUB_PERSONAL_ACCESS_TOKEN"
+      }
+    },
     "mcp-server-byterover": {
-      "source": "extension",
       "enabled": true,
       "settings": {}
     },
     "github-activity-summarizer": {
-      "source": "extension",
       "enabled": true,
       "settings": {}
     },
     "mcp-server-context7": {
-      "source": "extension",
       "enabled": true,
       "settings": {
         "context7_api_key": ""
       }
+    },
+    "arch-ops-server": {
+      "enabled": true,
+      "settings": {}
     }
   },
   "icon_theme": "Colored Zed Icons Theme Dark",
@@ -49,15 +56,12 @@
   },
   "languages": {
     "Python": {
-      "inlay_hints": {
-        "enabled": true
-      },
+      "inlay_hints": { "enabled": true },
       "always_treat_brackets_as_autoclosed": true
     },
     "Diff": {
-      "inlay_hints": {
-        "enabled": true
-      },
+      "prettier": { "allowed": true },
+      "inlay_hints": { "enabled": true },
       "always_treat_brackets_as_autoclosed": true,
       "ensure_final_newline_on_save": true,
       "remove_trailing_whitespace_on_save": true,
@@ -73,15 +77,15 @@
   "title_bar": {
     "show_menus": false
   },
+  "git_panel": { "collapse_untracked_diff": true },
   "agent": {
-    "default_model": {
-      "provider": "zed.dev",
-      "model": "grok-4"
-    },
+    "default_model": { "provider": "zed.dev", "model": "grok-4" },
     "play_sound_when_agent_done": true,
     "model_parameters": []
   },
-  "autosave": "on_focus_change",
+  "autosave": {
+    "after_delay": { "milliseconds": 1000 }
+  },
   "always_treat_brackets_as_autoclosed": true,
   "auto_signature_help": true,
   "auto_install_extensions": {
@@ -118,13 +122,20 @@
     "jq": true,
     "jsonl": true,
     "desktop": true,
-    "mcp-server-sonarqube": true
+    "mcp-server-sonarqube": true,
+    "opencode": true,
+    "arch-mcp": true,
+    "nix": true,
+    "ini": true,
+    "nu": true,
+    "codeowners": true,
+    "editorconfig": true,
+    "ghostty": true,
+    "pyrefly": true,
+    "pytest-language-server": true,
+    "mcp-server-brave-search": true
   },
   "ui_font_size": 20,
   "buffer_font_size": 20,
-  "theme": {
-    "mode": "system",
-    "light": "Ayu Light",
-    "dark": "Github Dark"
-  }
+  "theme": { "mode": "system", "light": "Ayu Light", "dark": "Github Dark" }
 }
