@@ -8,3 +8,5 @@ flatpak_scope: user
 auto_prune: false
 backup_tool: snapper
 editor: fresh # Editor for config files (falls back to $EDITOR)
+
+packages: [cuda]
