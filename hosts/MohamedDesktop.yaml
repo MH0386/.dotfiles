@@ -1,0 +1,21 @@
+# Host configuration for MohamedDesktop
+# Desktop
+
+host: MohamedDesktop
+description: My Desktop
+
+# Import shared configurations (optional), Example:
+import:
+  - hosts/shared/common.yaml
+
+# Enabled modules
+enabled_modules: []
+
+# Host-specific packages
+packages: []
+
+# Exclude packages from base or modules
+exclude: []
+
+# AUR helper to use (auto-detects paru or yay if not specified)
+aur_helper: paru # Options: paru, yay, or any AUR helper
