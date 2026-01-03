@@ -4,10 +4,6 @@
 description: Base system packages
 
 packages:
-  # Essential base system
-  - base
-  - base-devel
-
   # Kernel (uncomment the one you use)
   # - linux              # Standard kernel
   # - linux-zen          # Zen kernel (optimized for desktop)
@@ -22,8 +18,16 @@ packages:
   - vim
   - neovim
   - htop
+  - btop
+  - downgrade
+  - 7zip
+  - gufw
 
   # dcli dependencies
   - paru # AUR helper (required for AUR package management)
   - fzf # Fuzzy finder (required for dcli search/module/backup TUI)
   - fresh-editor-bin
+  - pacseek
+  - mission-center
+  - unrar
+  - unzip
