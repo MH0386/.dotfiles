@@ -1,0 +1,13 @@
+packages:
+- act
+- actionlint
+- go-task
+- shellcheck
+- trivy
+- trufflehog-bin
+- yamllint
+- snyk
+- pre-commit
+- syft
+- github-cli
+- grype-bin

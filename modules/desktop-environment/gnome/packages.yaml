@@ -1,0 +1,26 @@
+packages:
+  - gnome
+  - nautilus-megasync
+  - nautilus-open-any-terminal
+  - gnome-boxes
+  - gnome-firmware
+  - gnome-nettool
+  - gnome-power-manager
+  - gnome-screenshot
+  - gnome-shell-extension-alphabetical-grid-extension
+  - gnome-shell-extension-appindicator
+  - gnome-shell-extension-arch-update
+  - gnome-shell-extension-auto-accent-color
+  - gnome-shell-extension-caffeine
+  - gnome-shell-extension-dash-to-dock
+  - gnome-shell-extension-desktop-icons-ng
+  - gnome-shell-extension-display-brightness-ddcutil-git
+  - gnome-shell-extension-media-controls
+  - gnome-shell-extension-paperwm-git
+  - gnome-shell-extension-search-light-git
+  - gnome-shell-extension-vitals
+  - gnome-shell-extension-weather-oclock
+  - gnome-shell-extensions
+  - gnome-themes-extra
+  - gnome-tweaks
+  - gnome-usage
