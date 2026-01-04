@@ -1,0 +1,9 @@
+(
+    enabled_players: [
+        "Chrome",
+    ],
+    auto_detect_new_players: true,
+    selected_player: None,
+    show_all_players: true,
+    hide_inactive_players: false,
+)
