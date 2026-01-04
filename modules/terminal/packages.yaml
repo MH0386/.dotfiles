@@ -1,4 +1,4 @@
 packages:
-- warp-terminal-bin
-- wezterm
-- ghostty
+  - warp-terminal-bin
+  - wezterm
+  - ghostty

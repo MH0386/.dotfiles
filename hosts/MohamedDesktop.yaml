@@ -1,13 +1,10 @@
 # Host configuration for MohamedDesktop
 # Desktop
-
 host: MohamedDesktop
 description: My Desktop
-
 # Import shared configurations (optional), Example:
 import:
   - hosts/shared/common.yaml
-
 # Enabled modules
 enabled_modules: []
 

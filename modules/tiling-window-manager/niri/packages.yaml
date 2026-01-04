@@ -1,2 +1,3 @@
----
-packages: [matugen, niri]
+packages:
+  - matugen
+  - niri

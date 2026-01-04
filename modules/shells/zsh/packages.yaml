@@ -1,4 +1,4 @@
 packages:
-- zinit
-- zsh-autocomplete
-- cachyos-zsh-config
+  - zinit
+  - zsh-autocomplete
+  - cachyos-zsh-config
