@@ -2,3 +2,15 @@ packages:
   - yazi
   - zoxide
   - 7zip
+  - trash-cli
+  - git
+  - htop
+  - btop
+  - downgrade
+  - fastfetch
+  - paru
+  - fzf 
+  - fresh-editor-bin
+  - pacseek
+  - unrar
+  - unzip

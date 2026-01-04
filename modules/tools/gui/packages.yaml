@@ -13,3 +13,5 @@ packages:
   - ab-download-manager
   - bazaar
   - notion-app-electron
+  - gufw
+  - mission-center
