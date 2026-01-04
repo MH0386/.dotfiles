@@ -6,3 +6,9 @@ packages:
   - topgrade
   - dconf-editor
   - archlinux-tweak-tool-git
+  - downgrade
+  - paru
+  - pacseek
+  - gufw
+  - mission-center
+
