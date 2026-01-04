@@ -11,3 +11,7 @@ packages:
 - syft
 - github-cli
 - grype-bin
+- direnv
+- doppler-cli-bin
+- meld
+- dockle-bin
