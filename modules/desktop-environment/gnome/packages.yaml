@@ -24,3 +24,4 @@ packages:
   - gnome-themes-extra
   - gnome-tweaks
   - gnome-usage
+  - extension-manager
