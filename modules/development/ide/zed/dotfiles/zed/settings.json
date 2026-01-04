@@ -1,0 +1,158 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "lsp": {
+    "basedpyright": {
+      "settings": {
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        },
+        "basedpyright.analysis": {
+          "typeCheckingMode": "off",
+          "diagnosticMode": "workspace",
+          "inlayHints.callArgumentNames": true
+        }
+      }
+    }
+  },
+  "context_servers": {
+    "mcp-server-github": {
+      "enabled": true,
+      "settings": {
+        "github_personal_access_token": "GITHUB_PERSONAL_ACCESS_TOKEN"
+      }
+    },
+    "mcp-server-byterover": {
+      "enabled": true,
+      "settings": {}
+    },
+    "github-activity-summarizer": {
+      "enabled": true,
+      "settings": {}
+    },
+    "mcp-server-context7": {
+      "enabled": true,
+      "settings": {
+        "context7_api_key": ""
+      }
+    },
+    "arch-ops-server": {
+      "enabled": true,
+      "settings": {}
+    }
+  },
+  "icon_theme": "Colored Zed Icons Theme Dark",
+  "indent_guides": {
+    "coloring": "indent_aware"
+  },
+  "toolbar": {
+    "code_actions": true
+  },
+  "languages": {
+    "Python": {
+      "inlay_hints": {
+        "enabled": true
+      },
+      "always_treat_brackets_as_autoclosed": true
+    },
+    "Diff": {
+      "prettier": {
+        "allowed": true
+      },
+      "inlay_hints": {
+        "enabled": true
+      },
+      "always_treat_brackets_as_autoclosed": true,
+      "ensure_final_newline_on_save": true,
+      "remove_trailing_whitespace_on_save": true,
+      "show_edit_predictions": true
+    }
+  },
+  "use_system_window_tabs": false,
+  "tabs": {
+    "show_diagnostics": "all",
+    "file_icons": true,
+    "git_status": true
+  },
+  "title_bar": {
+    "show_menus": false
+  },
+  "git_panel": {
+    "collapse_untracked_diff": true
+  },
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "grok-4"
+    },
+    "play_sound_when_agent_done": true,
+    "model_parameters": []
+  },
+  "autosave": {
+    "after_delay": {
+      "milliseconds": 1000
+    }
+  },
+  "always_treat_brackets_as_autoclosed": true,
+  "auto_signature_help": true,
+  "auto_install_extensions": {
+    "html": true,
+    "toml": true,
+    "dockerfile": true,
+    "git-firefly": true,
+    "github-theme": true,
+    "log": true,
+    "docker-compose": true,
+    "csv": true,
+    "github-dark-default": true,
+    "rainbow-csv": true,
+    "pylsp": true,
+    "fleet-themes": true,
+    "mcp-server-context7": true,
+    "basher": true,
+    "colored-zed-icons-theme": true,
+    "mcp-server-github": true,
+    "python-requirements": true,
+    "wakatime": true,
+    "mcp-server-sequential-thinking": true,
+    "python-snippets": true,
+    "cspell": true,
+    "autocorrect": true,
+    "caddyfile": true,
+    "code-stats": true,
+    "json5": true,
+    "tombi": true,
+    "github-activity-summarizer": true,
+    "mcp-server-byterover": true,
+    "markdownlint": true,
+    "github-actions": true,
+    "jq": true,
+    "jsonl": true,
+    "desktop": true,
+    "mcp-server-sonarqube": true,
+    "opencode": true,
+    "arch-mcp": true,
+    "nix": true,
+    "ini": true,
+    "nu": true,
+    "codeowners": true,
+    "editorconfig": true,
+    "ghostty": true,
+    "pyrefly": true,
+    "pytest-language-server": true,
+    "mcp-server-brave-search": true
+  },
+  "ui_font_size": 20,
+  "buffer_font_size": 20,
+  "theme": {
+    "mode": "system",
+    "light": "Ayu Light",
+    "dark": "Github Dark"
+  }
+}
