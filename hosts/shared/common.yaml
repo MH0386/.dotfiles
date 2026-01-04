@@ -9,5 +9,6 @@ editor: fresh # Editor for config files (falls back to $EDITOR)
 flatpak_scope: user
 packages:
   - cuda
-aur_helper: paru
+# AUR helper to use (auto-detects paru or yay if not specified)
+aur_helper: paru # Options: paru, yay, or any AUR helper
 host:
