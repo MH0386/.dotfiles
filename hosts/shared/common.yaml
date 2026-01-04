@@ -1,12 +1,12 @@
+# Settings
+auto_prune: false
+backup_tool: snapper
+
 # Configuration backup settings
 config_backups:
   enabled: true # Auto-backup on sync
   max_backups: 5 # Keep last 5 backups (0 = unlimited)
-
-# Settings
-flatpak_scope: user
-auto_prune: false
-backup_tool: snapper
 editor: fresh # Editor for config files (falls back to $EDITOR)
+flatpak_scope: user
 
 packages: [cuda]
