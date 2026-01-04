@@ -1,14 +1,12 @@
 # Base packages installed on all systems
 # These packages are included regardless of host or modules
-
 description: Base system packages
-
 packages:
   # Kernel (uncomment the one you use)
-  # - linux              # Standard kernel
-  # - linux-zen          # Zen kernel (optimized for desktop)
-  # - linux-lts          # Long-term support kernel
-  # - linux-hardened     # Security-focused kernel
+  # - linux  # Standard kernel
+  # - linux-zen  # Zen kernel (optimized for desktop)
+  # - linux-lts  # Long-term support kernel
+  # - linux-hardened  # Security-focused kernel
 
   # Firmware (usually needed)
   # - linux-firmware
@@ -22,10 +20,10 @@ packages:
   - downgrade
   - 7zip
   - gufw
-
+  - fastfetch
   # dcli dependencies
-  - paru # AUR helper (required for AUR package management)
-  - fzf # Fuzzy finder (required for dcli search/module/backup TUI)
+  - paru  # AUR helper (required for AUR package management)
+  - fzf  # Fuzzy finder (required for dcli search/module/backup TUI)
   - fresh-editor-bin
   - pacseek
   - mission-center
