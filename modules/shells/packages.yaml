@@ -1,2 +1,4 @@
 packages:
   - starship
+  - atuin
+  - carapace-bin
