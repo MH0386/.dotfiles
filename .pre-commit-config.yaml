@@ -33,3 +33,8 @@ repos:
     rev: v3.91.2
     hooks:
       - id: trufflehog
+  - repo: https://github.com/Mergifyio/mergify-pre-commit
+    rev: 1.1.0
+    hooks:
+      - id: validate-mergify-config-location
+      - id: validate-mergify-config
