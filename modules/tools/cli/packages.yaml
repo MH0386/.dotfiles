@@ -1,4 +1,4 @@
 packages:
-- yazi
-- zoxide
-- 7zip
+  - yazi
+  - zoxide
+  - 7zip
