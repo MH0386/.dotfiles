@@ -1,8 +1,8 @@
 packages:
-- octopi
-- parui
-- pika-backup
-- pikaur
-- topgrade
-- dconf-editor
-- archlinux-tweak-tool-git
+  - octopi
+  - parui
+  - pika-backup
+  - pikaur
+  - topgrade
+  - dconf-editor
+  - archlinux-tweak-tool-git
