@@ -31,8 +31,6 @@ enabled_modules:
   - tools/cli
   - tools/gui
   - tools/system
-packages:
-  - cuda
 exclude: []
 additional_packages: []
 backup_tool: snapper
