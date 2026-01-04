@@ -1,4 +1,5 @@
 packages:
-- helium-browser-bin
-- zen-browser-bin
-- brave-bin
+  - helium-browser-bin
+  - zen-browser-bin
+  - brave-bin
+  - google-chrome
