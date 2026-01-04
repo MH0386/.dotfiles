@@ -1,0 +1,42 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  checks: write
+  deployments: write
+  security-events: write
+  actions: read
+jobs:
+  pre-commit:
+    name: pre-commit
+    runs-on: ubuntu-latest
+    environment: pre-commit
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
+      - name: Setup UV
+        uses: astral-sh/setup-uv@681c641aba71e4a1c380be3ab5e12ad51f415867 # v7.1.6
+      - name: Restore pre-commit cache
+        uses: actions/cache/restore@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+        id: cache-restore
+        with:
+          path: ~/.cache/pre-commit
+          key: pre-commit-${{ hashFiles('**/.pre-commit-config.yaml') }}
+          restore-keys: pre-commit-
+      - name: Run pre-commit hooks
+        run: uvx pre-commit run --show-diff-on-failure --color=always --all-files
+      - name: Save pre-commit cache
+        uses: actions/cache/save@9255dc7a253b0ccc959486e2bca901246202afeb # v5.0.1
+        if: always() && steps.cache-restore.outputs.cache-hit != 'true'
+        with:
+          path: ~/.cache/pre-commit
+          key: ${{ steps.cache-restore.outputs.cache-primary-key }}
+      - name: Run pre-commit-ci-lite
+        uses: pre-commit-ci/lite-action@5d6cc0eb514c891a40562a58a8e71576c5c7fb43 # v1.1.0
+        if: always()
