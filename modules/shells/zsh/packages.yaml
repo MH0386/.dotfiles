@@ -1,9 +1,4 @@
 packages:
-  - awesome-terminal-fonts
-  - cantarell-fonts
-  - noto-color-emoji-fontconfig
-  - noto-fonts
-  - noto-fonts-cjk
-  - noto-fonts-emoji
-  - ttf-ms-fonts
-  - ttf-nerd-fonts-symbols-mono
+- zinit
+- zsh-autocomplete
+- cachyos-zsh-config
