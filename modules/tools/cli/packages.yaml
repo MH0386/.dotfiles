@@ -7,7 +7,7 @@ packages:
   - htop
   - btop
   - fastfetch
-  - fzf 
+  - fzf
   - fresh-editor-bin
   - unrar
   - unzip
