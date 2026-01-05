@@ -1,7 +1,6 @@
 packages:
   - packet
   - vicinae-bin
-  - solaar
   - shotwell
   - grsync
   - file-roller
