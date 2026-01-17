@@ -1,49 +1,49 @@
 {
-  "ui": {
-    "border_primary": "#adc6ff",
-    "border_secondary": "#bfc6dc",
-    "header_background": "#adc6ff",
-    "header_text": "#102f60",
-    "footer_background": "#111318",
-    "footer_text": "#c4c6d0",
-    "text_primary": "#e2e2e9",
-    "text_secondary": "#c4c6d0",
-    "text_accent": "#adc6ff",
-    "selection_background": "#adc6ff",
-    "selection_text": "#102f60"
-  },
   "charts": {
-    "network_download": "#adc6ff",
-    "network_upload": "#2b4678",
-    "network_line": "#bfc6dc",
+    "cpu_core_high": "#debcdf",
     "cpu_core_low": "#2b4678",
     "cpu_core_medium": "#adc6ff",
-    "cpu_core_high": "#debcdf",
     "disk_read": "#adc6ff",
-    "disk_write": "#2b4678"
+    "disk_write": "#2b4678",
+    "network_download": "#adc6ff",
+    "network_line": "#bfc6dc",
+    "network_upload": "#2b4678"
   },
   "progress_bars": {
-    "memory_low": "#2b4678",
-    "memory_medium": "#adc6ff",
-    "memory_high": "#debcdf",
-    "disk_low": "#2b4678",
-    "disk_medium": "#adc6ff",
-    "disk_high": "#debcdf",
+    "cpu_high": "#debcdf",
     "cpu_low": "#2b4678",
     "cpu_medium": "#adc6ff",
-    "cpu_high": "#debcdf",
+    "disk_high": "#debcdf",
+    "disk_low": "#2b4678",
+    "disk_medium": "#adc6ff",
+    "memory_high": "#debcdf",
+    "memory_low": "#2b4678",
+    "memory_medium": "#adc6ff",
     "progress_background": "#1e1f25"
+  },
+  "status": {
+    "error": "#ffb4ab",
+    "info": "#adc6ff",
+    "success": "#22C55E",
+    "warning": "#F59E0B"
   },
   "temperature": {
     "cold": "#2b4678",
-    "warm": "#adc6ff",
+    "danger": "#ffb4ab",
     "hot": "#debcdf",
-    "danger": "#ffb4ab"
+    "warm": "#adc6ff"
   },
-  "status": {
-    "success": "#22C55E",
-    "warning": "#F59E0B",
-    "error": "#ffb4ab",
-    "info": "#adc6ff"
+  "ui": {
+    "border_primary": "#adc6ff",
+    "border_secondary": "#bfc6dc",
+    "footer_background": "#111318",
+    "footer_text": "#c4c6d0",
+    "header_background": "#adc6ff",
+    "header_text": "#102f60",
+    "selection_background": "#adc6ff",
+    "selection_text": "#102f60",
+    "text_accent": "#adc6ff",
+    "text_primary": "#e2e2e9",
+    "text_secondary": "#c4c6d0"
   }
 }

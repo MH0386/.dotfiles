@@ -20,11 +20,18 @@
   "emojiLauncher": {
     "enabled": true
   },
+  "linuxWallpaperEngine": {
+    "enabled": true,
+    "generateStaticWallpaper": true
+  },
   "niriWindows": {
     "enabled": true
   },
   "powerUsagePlugin": {
     "enabled": true
+  },
+  "prayerTimes": {
+    "enabled": false
   },
   "wallpaperBing": {
     "enabled": false
@@ -37,12 +44,5 @@
   },
   "webSearch": {
     "enabled": true
-  },
-  "linuxWallpaperEngine": {
-    "enabled": true,
-    "generateStaticWallpaper": true
-  },
-  "prayerTimes": {
-    "enabled": false
   }
 }
