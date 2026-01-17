@@ -11,17 +11,27 @@
       "url": "https://mcp.context7.com/mcp"
     },
     "fetch": {
-      "command": ["uvx", "mcp-server-fetch"],
+      "command": [
+        "uvx",
+        "mcp-server-fetch"
+      ],
       "enabled": true,
       "type": "local"
     },
     "git": {
-      "command": ["uvx", "mcp-server-git"],
+      "command": [
+        "uvx",
+        "mcp-server-git"
+      ],
       "enabled": true,
       "type": "local"
     },
     "memory": {
-      "command": ["npx", "-y", "@modelcontextprotocol/server-memory"],
+      "command": [
+        "npx",
+        "-y",
+        "@modelcontextprotocol/server-memory"
+      ],
       "enabled": true,
       "type": "local"
     },
@@ -35,7 +45,10 @@
       "type": "local"
     },
     "time": {
-      "command": ["uvx", "mcp-server-time"],
+      "command": [
+        "uvx",
+        "mcp-server-time"
+      ],
       "enabled": true,
       "type": "local"
     }
