@@ -1,18 +1,18 @@
 [
-    {
-        "key": "ctrl+enter",
-        "command": "workbench.action.terminal.sendSequence",
-        "when": "terminalFocus",
-        "args": {
-            "text": "\\\r\n"
-        }
+  {
+    "args": {
+      "text": "\\\r\n"
     },
-    {
-        "key": "shift+enter",
-        "command": "workbench.action.terminal.sendSequence",
-        "when": "terminalFocus",
-        "args": {
-            "text": "\\\r\n"
-        }
-    }
+    "command": "workbench.action.terminal.sendSequence",
+    "key": "ctrl+enter",
+    "when": "terminalFocus"
+  },
+  {
+    "args": {
+      "text": "\\\r\n"
+    },
+    "command": "workbench.action.terminal.sendSequence",
+    "key": "shift+enter",
+    "when": "terminalFocus"
+  }
 ]
