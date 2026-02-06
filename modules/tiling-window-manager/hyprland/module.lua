@@ -4,4 +4,5 @@ return {
         "hyprland",
         "hyprpicker"
     },
+    dotfiles_sync = true
 }

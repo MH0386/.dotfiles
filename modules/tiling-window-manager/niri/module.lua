@@ -4,4 +4,5 @@ return {
         "matugen",
         "niri"
     },
+    dotfiles_sync = true
 }

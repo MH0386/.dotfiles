@@ -3,4 +3,5 @@ return {
     packages = {
         "antigravity"
     },
+    dotfiles_sync = true
 }

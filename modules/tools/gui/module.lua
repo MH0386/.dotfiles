@@ -16,4 +16,5 @@ return {
         "notion-app-electron",
         "converseen"      
     },
+    dotfiles_sync = true
 }

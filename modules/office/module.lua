@@ -5,4 +5,5 @@ return {
         "libreoffice-fresh-ar",
         "onlyoffice-bin"
     },
+    dotfiles_sync = true
 }

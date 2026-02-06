@@ -16,4 +16,5 @@ return {
         "cosmic-ext-tweaks-git",
         "cosmic-icon-theme"
     },
+    dotfiles_sync = true
 }

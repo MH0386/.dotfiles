@@ -9,4 +9,5 @@ return {
         "python-pytorch",
         "python-transformers"
     },
+    dotfiles_sync = true
 }

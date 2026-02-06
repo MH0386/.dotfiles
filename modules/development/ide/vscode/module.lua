@@ -3,4 +3,5 @@ return {
     packages = {
         "visual-studio-code-bin"
     },
+    dotfiles_sync = true
 }

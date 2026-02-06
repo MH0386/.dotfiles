@@ -14,6 +14,6 @@ return {
         "gufw",
         "mission-center",
         "solaar"
-      
     },
+    dotfiles_sync = true
 }

@@ -13,4 +13,5 @@ return {
         "qt6-multimedia",
         "greetd-dms-greeter-git"
     },
+    dotfiles_sync = true
 }

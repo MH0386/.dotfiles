@@ -13,6 +13,6 @@ return {
         "fresh-editor-bin",
         "unrar",
         "unzip"
-      
     },
+    dotfiles_sync = true
 }

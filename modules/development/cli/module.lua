@@ -20,4 +20,5 @@ return {
         "taplo-cli",
         "yamlfix"
     },
+    dotfiles_sync = true
 }

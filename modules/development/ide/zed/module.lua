@@ -3,4 +3,5 @@ return {
     packages = {
         "zed"
     },
+    dotfiles_sync = true
 }

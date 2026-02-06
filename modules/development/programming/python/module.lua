@@ -4,4 +4,5 @@ return {
         "uv",
         "python-uv"
     },
+    dotfiles_sync = true
 }

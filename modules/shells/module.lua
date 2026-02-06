@@ -5,4 +5,5 @@ return {
         "atuin",
         "carapace-bin"
     },
+    dotfiles_sync = true
 }

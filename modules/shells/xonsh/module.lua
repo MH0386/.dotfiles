@@ -6,4 +6,5 @@ return {
         "python-pygments",
         "python-setproctitle"
     },
+    dotfiles_sync = true
 }

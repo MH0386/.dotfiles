@@ -3,4 +3,5 @@ return {
     packages = {
         "nushell"
     },
+    dotfiles_sync = true
 }

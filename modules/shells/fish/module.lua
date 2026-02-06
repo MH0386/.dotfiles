@@ -3,4 +3,5 @@ return {
     packages = {
         "cachyos-fish-config"
     },
+    dotfiles_sync = true
 }
