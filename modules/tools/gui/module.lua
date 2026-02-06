@@ -14,6 +14,6 @@ return {
         "ab-download-manager",
         "bazaar",
         "notion-app-electron",
-        "converseen"      
+        "converseen"
     },
 }

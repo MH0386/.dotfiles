@@ -3,6 +3,6 @@ return {
     packages = {
         "warp-terminal-bin",
         "wezterm",
-        "ghostty"      
+        "ghostty"
     },
 }

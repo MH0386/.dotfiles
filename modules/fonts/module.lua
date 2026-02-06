@@ -14,6 +14,6 @@ return {
         "ttf-liberation",
         "ttf-meslo-nerd",
         "ttf-opensans"
-      
+
     },
 }
