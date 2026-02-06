@@ -14,7 +14,8 @@ return {
         "pacseek",
         "gufw",
         "mission-center",
-        "solaar"
+        "solaar", 
+        "sysd-manager"
     },
     dotfiles_sync = true
 }
