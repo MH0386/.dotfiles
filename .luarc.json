@@ -1,5 +1,9 @@
 {
-    "workspace.library": [".lua"],
-    "diagnostics.globals": ["dcli"],
-    "runtime.version": "Lua 5.4"
+  "diagnostics.globals": [
+    "dcli"
+  ],
+  "runtime.version": "Lua 5.4",
+  "workspace.library": [
+    ".lua"
+  ]
 }

@@ -3,7 +3,7 @@ return {
     packages = {
         "warp-terminal-bin",
         "wezterm",
-        "ghostty"      
+        "ghostty"
     },
     dotfiles_sync = true
 }

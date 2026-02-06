@@ -12,6 +12,5 @@ return {
         "cups",
         "cups-filters",
         "cups-pdf"
-      
     },
 }

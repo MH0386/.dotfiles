@@ -14,7 +14,7 @@ return {
         "ab-download-manager",
         "bazaar",
         "notion-app-electron",
-        "converseen"      
+        "converseen"
     },
     dotfiles_sync = true
 }
