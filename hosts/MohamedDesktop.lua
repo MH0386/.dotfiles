@@ -41,6 +41,7 @@ local enabled_modules = {
     "tools/cli",
     "tools/gui",
     "tools/system",
+    "hardware"
 }
 
 -- Example: Add GPU drivers based on hardware detection
