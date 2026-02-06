@@ -5,7 +5,6 @@ return {
         "zoxide",
         "7zip",
         "trash-cli",
-        "git",
         "htop",
         "btop",
         "fastfetch",

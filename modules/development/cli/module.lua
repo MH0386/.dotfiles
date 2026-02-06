@@ -1,6 +1,7 @@
 return {
     description = "CLIs for development",
     packages = {
+        "git",
         "act",
         "actionlint",
         "go-task",
