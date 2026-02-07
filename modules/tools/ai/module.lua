@@ -1,7 +1,7 @@
 return {
     description = "AI Agents and Tools",
     packages = {
-        "opencode-bin",
+        "opencode",
         "cagent-bin",
         "llama.cpp-cuda",
         "python-safetensors",
