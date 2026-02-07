@@ -173,5 +173,6 @@
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.experimental.share.enabled": true,
   "yaml.format.singleQuote": true,
-  "yaml.keyOrdering": true
+  "yaml.keyOrdering": true,
+  "redhat.telemetry.enabled": true
 }
