@@ -5,9 +5,9 @@ local packages = {
     "steam",
     "lutris",
     "gamemode",
-    "lib32-gamemode",
+    -- "lib32-gamemode",
     "mangohud",
-    "lib32-mangohud",
+    -- "lib32-mangohud",
 }
 
 -- Add Wine for non-native games
@@ -27,7 +27,7 @@ return {
     packages = packages,
     conflicts = { "minimal" },
 
-    services = {
-        enabled = { "gamemode.service" },
-    },
+    -- services = {
+    --     enabled = { "gamemode.service" },
+    -- },
 }
