@@ -2,6 +2,7 @@ return {
     description = "Docker",
     packages = {
         "docker-desktop",
-        "docker-model-bin"
+        "docker-model-bin",
+        "dive"
     },
 }
