@@ -19,7 +19,8 @@ return {
         "meld",
         "dockle-bin",
         "taplo-cli",
-        "yamlfix"
+        "yamlfix",
+        "nix"
     },
     dotfiles_sync = true
 }
