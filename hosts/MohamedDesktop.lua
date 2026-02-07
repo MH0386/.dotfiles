@@ -92,9 +92,9 @@ return {
     -- Default applications
     default_apps = {
         browser = "zen",
-        terminal = "ghostty",
+        terminal = "com.mitchellh.ghostty",
         text_editor = "code",
-        file_manager = "nautilus",
+        file_manager = "org.gnome.Nautilus",
     },
 
     -- Settings
