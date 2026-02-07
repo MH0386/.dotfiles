@@ -11,7 +11,9 @@ return {
         "fzf",
         "fresh-editor-bin",
         "unrar",
-        "unzip"
+        "unzip",
+        "cmatrix",
+        "go-yq"
     },
     dotfiles_sync = true
 }
