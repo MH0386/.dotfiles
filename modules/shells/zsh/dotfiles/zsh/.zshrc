@@ -167,4 +167,3 @@ WINIT_X11_SCALE_FACTOR=2.5
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/mohamed/.lmstudio/bin"
 # End of LM Studio CLI section
-
