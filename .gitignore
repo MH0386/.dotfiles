@@ -1,3 +1,11 @@
 # System packages merged from host (auto-generated, host-specific)
 system-packages-*.yaml
 /config.yaml
+modules/development/ide/vscode/dotfiles/Code/*
+!modules/development/ide/vscode/dotfiles/Code/User/
+modules/development/ide/vscode/dotfiles/Code/User/*
+!modules/development/ide/vscode/dotfiles/Code/User/chatLanguageModels.json
+!modules/development/ide/vscode/dotfiles/Code/User/keybindings.json
+!modules/development/ide/vscode/dotfiles/Code/User/mcp.json
+!modules/development/ide/vscode/dotfiles/Code/User/settings.json
+modules/shells/nushell/dotfiles/nushell/history.txt
