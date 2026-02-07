@@ -30,14 +30,14 @@ if dcli.hardware.has_amd_gpu() then
     table.insert(packages, "libva-mesa-driver")
 end
 
-if dcli.hardware.has_intel_gpu() then
-    dcli.log.info("Intel GPU detected")
-    table.insert(description_parts, "Intel GPU")
+-- if dcli.hardware.has_intel_gpu() then
+--     dcli.log.info("Intel GPU detected")
+--     table.insert(description_parts, "Intel GPU")
 
-    table.insert(packages, "mesa")
-    table.insert(packages, "vulkan-intel")
-    table.insert(packages, "intel-media-driver")
-end
+--     table.insert(packages, "mesa")
+--     table.insert(packages, "vulkan-intel")
+--     table.insert(packages, "intel-media-driver")
+-- end
 
 -- ═══════════════════════════════════════════════════════════════════
 -- LAPTOP PACKAGES
@@ -61,10 +61,10 @@ end
 
 -- Services for laptop
 local services = { enabled = {}, disabled = {} }
-if dcli.hardware.chassis_type() == "laptop" then
-    table.insert(services.enabled, "tlp.service")
-    table.insert(services.disabled, "power-profiles-daemon.service")
-end
+-- if dcli.hardware.chassis_type() == "laptop" then
+--     table.insert(services.enabled, "tlp.service")
+--     table.insert(services.disabled, "power-profiles-daemon.service")
+-- end
 
 return {
     description = description,
