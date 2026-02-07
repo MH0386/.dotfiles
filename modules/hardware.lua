@@ -43,7 +43,7 @@ end
 -- LAPTOP PACKAGES
 -- ═══════════════════════════════════════════════════════════════════
 
-if dcli.hardware.is_laptop() then
+if dcli.hardware.chassis_type() == "laptop" then
     dcli.log.info("Laptop detected - adding power management")
     table.insert(description_parts, "Laptop")
 
@@ -61,7 +61,7 @@ end
 
 -- Services for laptop
 local services = { enabled = {}, disabled = {} }
-if dcli.hardware.is_laptop() then
+if dcli.hardware.chassis_type() == "laptop" then
     table.insert(services.enabled, "tlp.service")
     table.insert(services.disabled, "power-profiles-daemon.service")
 end
