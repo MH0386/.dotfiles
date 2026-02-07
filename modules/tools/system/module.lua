@@ -13,9 +13,11 @@ return {
         "paru",
         "pacseek",
         "gufw",
+        "ufw",
         "mission-center",
         "solaar",
-        "sysd-manager"
+        "sysd-manager",
+        "device-mapper"
     },
     dotfiles_sync = true
 }
