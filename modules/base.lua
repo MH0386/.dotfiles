@@ -20,6 +20,8 @@ local packages = {
     -- "vim",
     -- "neovim",
     -- "htop",
+    "damask-wallpaper",
+    "dcli-arch-git"
 }
 
 -- Add CPU microcode based on vendor
