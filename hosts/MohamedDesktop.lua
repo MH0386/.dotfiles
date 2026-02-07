@@ -2,7 +2,6 @@
 -- My Desktop
 -- See LUA-HOSTS.md for full documentation
 
-local is_laptop = dcli.hardware.is_laptop()
 local memory_mb = dcli.system.memory_total_mb()
 
 dcli.log.info(string.format("Loading config for MohamedDesktop (%d MB RAM)", memory_mb))
@@ -53,7 +52,7 @@ local enabled_modules = {
 -- end
 
 -- Example: Add laptop-specific modules
--- if is_laptop then
+-- if dcli.hardware.chassis_type() == "laptop" then
 --     table.insert(enabled_modules, "laptop-power")
 -- end
 
