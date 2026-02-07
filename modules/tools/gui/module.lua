@@ -14,7 +14,11 @@ return {
         "ab-download-manager",
         "bazaar",
         "notion-app-electron",
-        "converseen"
+        "converseen",
+        "dialect",
+        "impression",
+        "megasync",
+        "vesktop"
     },
     dotfiles_sync = true
 }
