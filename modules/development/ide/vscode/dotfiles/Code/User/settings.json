@@ -110,6 +110,7 @@
     "tests"
   ],
   "python.testing.pytestEnabled": true,
+  "redhat.telemetry.enabled": true,
   "remote.autoForwardPortsSource": "hybrid",
   "ruff.format.preview": true,
   "security.allowedUNCHosts": [
