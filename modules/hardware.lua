@@ -13,10 +13,11 @@ if dcli.hardware.has_nvidia() then
     table.insert(description_parts, "NVIDIA")
 
     -- Proprietary drivers
-    table.insert(packages, "nvidia")
+    -- table.insert(packages, "nvidia")
     table.insert(packages, "nvidia-utils")
     table.insert(packages, "nvidia-settings")
     table.insert(packages, "lib32-nvidia-utils")
+    table.insert(packages, "nvidia-container-toolkit")
 end
 
 if dcli.hardware.has_amd_gpu() then
