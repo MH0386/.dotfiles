@@ -7,7 +7,9 @@ return {
         "python-safetensors",
         "python-sentencepiece",
         "python-pytorch",
-        "python-transformers"
+        "python-transformers",
+        "lmstudio-bin",
+        "opencode-desktop-bin"
     },
     dotfiles_sync = true
 }
