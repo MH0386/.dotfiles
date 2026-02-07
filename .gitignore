@@ -9,3 +9,5 @@ modules/development/ide/vscode/dotfiles/Code/User/*
 !modules/development/ide/vscode/dotfiles/Code/User/mcp.json
 !modules/development/ide/vscode/dotfiles/Code/User/settings.json
 modules/shells/nushell/dotfiles/nushell/history.txt
+modules/shells/zsh/dotfiles/zsh/.zcompdump*
+
