@@ -1,7 +1,7 @@
 return {
     description = "Terminals",
     packages = {
-        "warp-terminal-bin",
+        "warp-terminal",
         "wezterm",
         "ghostty"
     },
