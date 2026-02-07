@@ -5,4 +5,6 @@ return {
         "zsh-autocomplete",
         "cachyos-zsh-config"
     },
+    dotfiles_sync = true,
+    -- dotfiles = { source = ".zshenv", target = "~/.zshenv" }
 }
