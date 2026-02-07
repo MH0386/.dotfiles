@@ -4,6 +4,8 @@ return {
         "helium-browser-bin",
         "zen-browser-bin",
         "brave-bin",
-        "google-chrome"
+        "google-chrome",
+        "firefox",
+        "firefox-ublock-origin"
     },
 }
