@@ -47,7 +47,6 @@
   },
   "editor.fontFamily": "JetBrainsMono Nerd Font Mono, ZedMono Nerd Font Mono, monospace",
   "editor.fontSize": 16,
-  "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
   "editor.minimap.enabled": false,
@@ -110,7 +109,6 @@
     "tests"
   ],
   "python.testing.pytestEnabled": true,
-  "redhat.telemetry.enabled": true,
   "remote.autoForwardPortsSource": "hybrid",
   "ruff.format.preview": true,
   "security.allowedUNCHosts": [
@@ -174,5 +172,19 @@
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.experimental.share.enabled": true,
   "yaml.format.singleQuote": true,
-  "yaml.keyOrdering": true
+  "redhat.telemetry.enabled": true,
+  "chat.tools.terminal.autoApprove": {
+    "nix-prefetch-url": true
+  },
+  "chat.tools.urls.autoApprove": {
+    "https://*.github.com": true
+  },
+  "json.schemaDownload.trustedDomains": {
+    "https://schemastore.azurewebsites.net/": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://www.schemastore.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://json-schema.org/": true,
+    "https://opencode.ai": true
+  }
 }
