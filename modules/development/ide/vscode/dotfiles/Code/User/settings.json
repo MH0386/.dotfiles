@@ -25,6 +25,12 @@
   "chat.edits2.enabled": true,
   "chat.emptyState.history.enabled": true,
   "chat.mcp.gallery.enabled": true,
+  "chat.tools.terminal.autoApprove": {
+    "nix-prefetch-url": true
+  },
+  "chat.tools.urls.autoApprove": {
+    "https://*.github.com": true
+  },
   "chat.useCloudButtonV2": true,
   "chat.useNestedAgentsMdFiles": true,
   "diffEditor.codeLens": true,
@@ -86,6 +92,14 @@
   "gitlens.ai.vscode.model": "copilot:gpt-4.1",
   "inlineChat.enableV2": true,
   "inlineChat.notebookAgent": true,
+  "json.schemaDownload.trustedDomains": {
+    "https://json-schema.org/": true,
+    "https://json.schemastore.org/": true,
+    "https://opencode.ai": true,
+    "https://raw.githubusercontent.com/": true,
+    "https://schemastore.azurewebsites.net/": true,
+    "https://www.schemastore.org/": true
+  },
   "json.schemas": [],
   "mermaid-chat.enabled": true,
   "path-intellisense.autoSlashAfterDirectory": true,
@@ -109,6 +123,7 @@
     "tests"
   ],
   "python.testing.pytestEnabled": true,
+  "redhat.telemetry.enabled": true,
   "remote.autoForwardPortsSource": "hybrid",
   "ruff.format.preview": true,
   "security.allowedUNCHosts": [
@@ -171,20 +186,5 @@
   "window.zoomLevel": 1,
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.experimental.share.enabled": true,
-  "yaml.format.singleQuote": true,
-  "redhat.telemetry.enabled": true,
-  "chat.tools.terminal.autoApprove": {
-    "nix-prefetch-url": true
-  },
-  "chat.tools.urls.autoApprove": {
-    "https://*.github.com": true
-  },
-  "json.schemaDownload.trustedDomains": {
-    "https://schemastore.azurewebsites.net/": true,
-    "https://raw.githubusercontent.com/": true,
-    "https://www.schemastore.org/": true,
-    "https://json.schemastore.org/": true,
-    "https://json-schema.org/": true,
-    "https://opencode.ai": true
-  }
+  "yaml.format.singleQuote": true
 }
