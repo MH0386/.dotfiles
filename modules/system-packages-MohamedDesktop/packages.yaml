@@ -8,6 +8,7 @@ packages:
 - alsa-plugins
 - alsa-utils
 - anyrun
+- arcane-cli
 - balena-etcher
 - bind
 - bluez
@@ -74,6 +75,7 @@ packages:
 - fsarchiver
 - fwupd
 - git-delta
+- github-copilot-cli
 - github-desktop
 - gitnuro-bin
 - glances
@@ -92,6 +94,8 @@ packages:
 - icu69
 - inetutils
 - input-remapper-git
+- name: io.gitlab.theevilskeleton.Upscaler
+  type: flatpak
 - iptables-nft
 - iwd
 - jdupes
@@ -145,6 +149,22 @@ packages:
 - ntfs-3g
 - ntp
 - openssh
+- name: org.freedesktop.Platform.GL.default
+  type: flatpak
+- name: org.freedesktop.Platform.GL.default
+  type: flatpak
+- name: org.freedesktop.Platform.GL.nvidia-590-48-01
+  type: flatpak
+- name: org.freedesktop.Platform.VAAPI.Intel
+  type: flatpak
+- name: org.freedesktop.Platform.VAAPI.nvidia
+  type: flatpak
+- name: org.freedesktop.Platform.codecs-extra
+  type: flatpak
+- name: org.gnome.Platform
+  type: flatpak
+- name: org.gtk.Gtk3theme.Adwaita-dark
+  type: flatpak
 - os-prober
 - otf-monaspace-nerdfonts
 - pacman-contrib
@@ -156,8 +176,9 @@ packages:
 - pkgfile
 - plocate
 - plymouth
+- podman
+- podman-desktop
 - poppler-glib
-- portainer-bin
 - power-profiles-daemon
 - prek-bin
 - proton-vpn-gtk-app
@@ -169,6 +190,8 @@ packages:
 - python-pyflakes
 - python-pyqt5
 - python-reportlab
+- qemu-user-binfmt
+- qemu-user-static
 - qpdftools
 - qt6-wayland
 - quran-companion
@@ -193,6 +216,7 @@ packages:
 - texinfo
 - totem
 - upower
+- upscayl-bin
 - usb_modeswitch
 - usbutils
 - varia
@@ -220,3 +244,10 @@ packages:
 - xorg-xrandr
 - xorg-xwayland
 - xwayland-satellite
+exclude: []
+conflicts: []
+pre_install_hook: null
+post_install_hook: null
+hook_behavior: ask
+pre_hook_behavior: null
+post_hook_behavior: null
