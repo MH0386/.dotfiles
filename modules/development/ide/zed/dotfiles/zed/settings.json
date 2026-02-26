@@ -7,6 +7,19 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "edit_predictions": {
+    "provider": "copilot"
+  },
+  "agent_servers": {
+    "opencode": {
+      "type": "registry"
+    },
+    "github-copilot": {
+      "type": "registry"
+    }
+  },
+  "buffer_font_weight": 500.0,
+  "ui_font_weight": 500.0,
   "lsp": {
     "basedpyright": {
       "settings": {
@@ -88,8 +101,8 @@
   },
   "agent": {
     "default_model": {
-      "provider": "zed.dev",
-      "model": "grok-4"
+      "provider": "copilot_chat",
+      "model": "gpt-5-mini"
     },
     "play_sound_when_agent_done": true,
     "model_parameters": []
@@ -122,10 +135,8 @@
     "wakatime": true,
     "mcp-server-sequential-thinking": true,
     "python-snippets": true,
-    "cspell": true,
     "autocorrect": true,
     "caddyfile": true,
-    "code-stats": true,
     "json5": true,
     "tombi": true,
     "github-activity-summarizer": true,
@@ -153,6 +164,6 @@
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
-    "dark": "Github Dark"
+    "dark": "GitHub Dark"
   }
 }

@@ -1,0 +1,16 @@
+return {
+    description = "Printer tools",
+    packages = {
+        "xsane",
+        "ghostscript",
+        "gutenprint",
+        "hp-printer-app",
+        "hplip",
+        "hplip-plugin",
+        "hpuld",
+        "system-config-printer",
+        "cups",
+        "cups-filters",
+        "cups-pdf"
+    },
+}
