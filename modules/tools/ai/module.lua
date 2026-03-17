@@ -2,7 +2,6 @@ return {
     description = "AI Agents and Tools",
     packages = {
         "opencode",
-        "cagent-bin",
         "llama.cpp-cuda",
         "python-safetensors",
         "python-sentencepiece",
