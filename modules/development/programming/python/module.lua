@@ -3,6 +3,7 @@ return {
     packages = {
         "uv",
         "python-uv",
+        "python",
         "ruff",
         "ty"
     },
