@@ -11,7 +11,7 @@ return {
         "archlinux-tweak-tool-git",
         "downgrade",
         "paru",
-        "pacseek",
+        "pacseek-bin",
         "gufw",
         "ufw",
         "mission-center",
