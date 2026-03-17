@@ -92,9 +92,9 @@ return {
 
     -- Default applications
     default_apps = {
-        browser = "zen",
+        browser = "firefox",
         terminal = "ghostty",
-        text_editor = "code",
+        text_editor = "zed",
         file_manager = "nautilus",
     },
 
