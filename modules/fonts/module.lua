@@ -13,6 +13,7 @@ return {
         "ttf-dejavu",
         "ttf-liberation",
         "ttf-meslo-nerd",
-        "ttf-opensans"
+        "ttf-opensans",
+        "ttf-zed-mono-nerd"
     },
 }
