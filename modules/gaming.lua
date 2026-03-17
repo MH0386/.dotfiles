@@ -17,6 +17,7 @@ table.insert(packages, "winetricks")
 
 if dcli.system.distro() == "cachyos" then
     table.insert(packages, "cachyos-gaming-meta")
+    table.insert(packages, "cachyos-gaming-applications")
 end
 
 -- Add Discord via Flatpak
