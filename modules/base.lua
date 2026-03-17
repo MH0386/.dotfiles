@@ -21,8 +21,34 @@ local packages = {
     -- "neovim",
     -- "htop",
     "damask-wallpaper",
-    "dcli-arch-git"
+    "dcli-arch-git",
+    "xorg-xwayland",
+    "xdg-user-dirs",
+    "wpa_supplicant"
 }
+
+if dcli.system.distro() == "cachyos" then
+    table.insert(packages, "cachyos-hello")
+    table.insert(packages, "cachyos-hooks")
+    table.insert(packages, "cachyos-kernel-manager")
+    table.insert(packages, "cachyos-keyring")
+    table.insert(packages, "cachyos-micro-settings")
+    table.insert(packages, "cachyos-mirrorlist")
+    table.insert(packages, "cachyos-packageinstaller")
+    table.insert(packages, "cachyos-plymouth-bootanimation")
+    table.insert(packages, "cachyos-rate-mirrors")
+    table.insert(packages, "cachyos-settings")
+    table.insert(packages, "cachyos-snapper-support")
+    table.insert(packages, "cachyos-v3-mirrorlist")
+    table.insert(packages, "cachyos-v4-mirrorlist")
+    table.insert(packages, "cachyos-wallpapers")
+    table.insert(packages, "linux-cachyos")
+    table.insert(packages, "linux-cachyos-headers")
+    table.insert(packages, "linux-cachyos-lts")
+    table.insert(packages, "linux-cachyos-lts-headers")
+    table.insert(packages, "linux-cachyos-lts-nvidia-open")
+    table.insert(packages, "linux-cachyos-nvidia-open")
+end
 
 -- Add CPU microcode based on vendor
 local cpu = dcli.hardware.cpu_vendor()
