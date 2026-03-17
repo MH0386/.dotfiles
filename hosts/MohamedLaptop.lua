@@ -1,10 +1,10 @@
--- Host configuration for MohamedDesktop
--- My Desktop
+-- Host configuration for MohamedLaptop
+-- My Laptop
 -- See LUA-HOSTS.md for full documentation
 
 local memory_mb = dcli.system.memory_total_mb()
 
-dcli.log.info(string.format("Loading config for MohamedDesktop (%d MB RAM)", memory_mb))
+dcli.log.info(string.format("Loading config for MohamedLaptop (%d MB RAM)", memory_mb))
 
 -- ═══════════════════════════════════════════════════════════════════
 -- MODULE SELECTION
@@ -75,8 +75,8 @@ local services = {
 -- ═══════════════════════════════════════════════════════════════════
 
 return {
-    host = "MohamedDesktop",
-    description = "My Desktop",
+    host = "MohamedLaptop",
+    description = "My Laptop",
 
     enabled_modules = enabled_modules,
 
