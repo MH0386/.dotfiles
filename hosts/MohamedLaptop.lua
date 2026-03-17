@@ -23,6 +23,7 @@ local enabled_modules = {
     "development/programming/python",
     "development/programming/rust",
     "development/tools/docker",
+    "development/tools/podman",
     "fonts",
     "office",
     "printer",
