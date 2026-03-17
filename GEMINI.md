@@ -25,11 +25,14 @@ The project is structured around **Hosts** and **Modules**:
 The project relies on the `dcli` tool (likely provided by the `dcli-arch-git` package found in `modules/base.lua`).
 
 - **Synchronization:** To apply the configuration and synchronize dotfiles:
+
   ```bash
   # (Typical command for such tools, verify with --help)
   dcli sync
   ```
+
 - **Local Validation:** Before committing, run pre-commit hooks:
+
   ```bash
   pre-commit run --all-files
   ```
