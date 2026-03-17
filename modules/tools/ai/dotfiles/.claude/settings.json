@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
+    "ANTHROPIC_API_KEY": ""
+  },
+  "model": "openrouter/free",
+  "enabledPlugins": {
+    "superpowers@claude-plugins-official": true,
+    "context7@claude-plugins-official": true,
+    "code-review@claude-plugins-official": true,
+    "github@claude-plugins-official": true,
+    "code-simplifier@claude-plugins-official": true,
+    "feature-dev@claude-plugins-official": true,
+    "ralph-loop@claude-plugins-official": true,
+    "commit-commands@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "claude-md-management@claude-plugins-official": true,
+    "skill-creator@claude-plugins-official": true,
+    "pyright-lsp@claude-plugins-official": true,
+    "rust-analyzer-lsp@claude-plugins-official": true,
+    "huggingface-skills@claude-plugins-official": true,
+    "coderabbit@claude-plugins-official": true,
+    "lua-lsp@claude-plugins-official": true
+  },
+  "autoMemoryEnabled": true,
+  "allowedMcpServers": [],
+  "sandbox": { "enabled": true },
+  "permissions": {
+    "allow": ["Bash(git add:*)"],
+    "ask": ["Bash(gh pr create:*)", "Bash(git commit:*)", "Bash(curl:*)"],
+    "deny": ["Read(*.env)", "Bash(rm:*)"],
+    "defaultMode": "default"
+  }
+}

@@ -9,7 +9,9 @@ return {
         "python-pytorch",
         "python-transformers",
         "lmstudio-bin",
-        "opencode-desktop-bin"
+        "opencode-desktop-bin",
+        "claude-code",
+        "claude-agent-acp-bin"
     },
     dotfiles_sync = true
 }
