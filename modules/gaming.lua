@@ -25,7 +25,6 @@ end
 return {
     description = "Gaming packages",
     packages = packages,
-    conflicts = { "minimal" },
 
     -- services = {
     --     enabled = { "gamemode.service" },
