@@ -4,6 +4,7 @@ return {
         "docker-desktop",
         "docker-model-plugin",
         "docker-agent-bin",
+        "docker",
         "dive"
     },
 }
