@@ -19,6 +19,8 @@ if dcli.hardware.has_nvidia() then
     table.insert(packages, "lib32-nvidia-utils")
     table.insert(packages, "opencl-nvidia")
     table.insert(packages, "nvidia-container-toolkit")
+    table.insert(packages, "libva-nvidia-driver")
+    table.insert(packages, "lib32-opencl-nvidia")
 
     dcli.log.info("Adding CUDA toolkit for NVIDIA GPU")
     table.insert(packages, "cuda")
