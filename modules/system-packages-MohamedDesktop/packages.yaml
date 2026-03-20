@@ -223,7 +223,6 @@ packages:
 - vim
 - virt-manager
 - virtualbox
-- vlc-plugins-all
 - vulkan-swrast
 - wget
 - which
