@@ -20,11 +20,17 @@ local packages = {
     -- "vim",
     -- "neovim",
     -- "htop",
+    "wget",
+    "which",
+    "vim",
     "damask-wallpaper",
     "dcli-arch-git",
     "xorg-xwayland",
     "xdg-user-dirs",
-    "wpa_supplicant"
+    "wpa_supplicant",
+    "vlc-plugins-all",
+    "ripgrep",
+    "lua-language-server"
 }
 
 if dcli.system.distro() == "cachyos" then
