@@ -42,7 +42,8 @@ local enabled_modules = {
     "tools/gui",
     "tools/system",
     "hardware",
-    "gaming"
+    "gaming",
+    "system-packages-MohamedLaptop",
 }
 
 -- Example: Add GPU drivers based on hardware detection
