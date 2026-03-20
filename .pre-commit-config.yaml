@@ -53,3 +53,7 @@ repos:
     rev: v0.11.0
     hooks:
       - id: shellcheck
+  - repo: https://github.com/Calinou/pre-commit-luacheck
+    rev: v1.0.0
+    hooks:
+      - id: luacheck
