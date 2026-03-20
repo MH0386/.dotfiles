@@ -245,8 +245,8 @@ packages:
 - xwayland-satellite
 exclude: []
 conflicts: []
-pre_install_hook: null
-post_install_hook: null
+pre_install_hook:
+post_install_hook:
 hook_behavior: ask
-pre_hook_behavior: null
-post_hook_behavior: null
+pre_hook_behavior:
+post_hook_behavior:
