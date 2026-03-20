@@ -17,7 +17,7 @@ return {
         "converseen",
         "dialect",
         "impression",
-        "megasync",
+        "megasync-bin",
         "vesktop"
     },
     dotfiles_sync = true
