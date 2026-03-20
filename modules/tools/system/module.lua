@@ -5,7 +5,7 @@ return {
         "octopi",
         "parui",
         "pika-backup",
-        "pikaur",
+        "pikaur-git",
         "topgrade",
         "dconf-editor",
         "archlinux-tweak-tool-git",
