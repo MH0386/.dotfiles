@@ -26,7 +26,6 @@ local enabled_modules = {
     "development/tools/podman",
     "fonts",
     "office",
-    "printer",
     "shells",
     "shells/bash",
     "shells/fish",
