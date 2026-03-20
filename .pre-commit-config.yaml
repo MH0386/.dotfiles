@@ -53,7 +53,7 @@ repos:
     rev: v0.11.0
     hooks:
       - id: shellcheck
-  - repo: https://github.com/Calinou/pre-commit-luacheck
-    rev: v1.0.0
+  - repo: https://github.com/LuaLS/lua-language-server
+    rev: 3.17.1
     hooks:
-      - id: luacheck
+      - id: lua-language-server-check
