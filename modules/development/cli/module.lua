@@ -20,7 +20,8 @@ return {
         "dockle-bin",
         "taplo-cli",
         "yamlfix",
-        "nix"
+        "nix",
+        "prek-bin"
     },
     dotfiles_sync = true
 }

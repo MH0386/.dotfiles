@@ -6,6 +6,8 @@ return {
         "brave-bin",
         "google-chrome",
         "firefox",
-        "firefox-ublock-origin"
+        "firefox-ublock-origin",
+        "firefox-adblock-plus",
+        "firefox-dark-reader"
     },
 }

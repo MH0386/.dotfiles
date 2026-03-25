@@ -8,9 +8,13 @@ return {
         "python-pytorch",
         "python-transformers",
         "lmstudio-bin",
-        "opencode-desktop-bin",
+        -- "opencode-desktop-bin",
         "claude-code",
-        "claude-agent-acp-bin"
+        "claude-agent-acp-bin",
+        "apm-bin",
+        "pi-coding-agent",
+        "jan-bin",
+        "gh-aw-bin"
     },
     dotfiles_sync = true,
     dotfiles = {

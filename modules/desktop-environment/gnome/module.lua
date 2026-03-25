@@ -74,7 +74,6 @@ return {
         "gnome-shell-extension-dash-to-dock",
         "gnome-shell-extension-desktop-icons-ng",
         "gnome-shell-extension-display-brightness-ddcutil-git",
-        "gnome-shell-extension-media-controls",
         "gnome-shell-extension-paperwm-git",
         "gnome-shell-extension-search-light-git",
         "gnome-shell-extension-vitals",

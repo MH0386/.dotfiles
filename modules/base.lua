@@ -30,7 +30,9 @@ local packages = {
     "wpa_supplicant",
     "vlc-plugins-all",
     "ripgrep",
-    "lua-language-server"
+    "lua-language-server",
+    "chaotic-keyring",
+    "chaotic-mirrorlist"
 }
 
 if dcli.system.distro() == "cachyos" then

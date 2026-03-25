@@ -2,7 +2,7 @@ return {
     description = "System Tools",
     packages = {
         "snapper",
-        "octopi",
+        "shelly",
         "parui",
         "pika-backup",
         "pikaur-git",

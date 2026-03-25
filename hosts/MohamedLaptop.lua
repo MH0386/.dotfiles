@@ -18,7 +18,7 @@ local enabled_modules = {
     "development/cli",
     "development/ide/antigravity",
     "development/ide/pycharm",
-    "development/ide/vscode",
+    "development/ide/vscodium",
     "development/ide/zed",
     "development/programming/python",
     "development/programming/rust",
@@ -118,4 +118,6 @@ return {
         tool = "snapper",
         snapper_config = "root",
     },
+
+    auto_commit = true,
 }
