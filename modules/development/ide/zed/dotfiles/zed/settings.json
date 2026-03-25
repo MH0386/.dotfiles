@@ -17,7 +17,13 @@
     "opencode": {
       "type": "registry"
     },
-    "github-copilot": {
+    "codex-acp": {
+      "type": "registry"
+    },
+    "pi-acp": {
+      "type": "registry"
+    },
+    "gemini": {
       "type": "registry"
     }
   },
@@ -38,6 +44,15 @@
     }
   },
   "context_servers": {
+    "MCP_DOCKER": {
+      "enabled": true,
+      "command": "docker",
+      "args": [
+        "mcp",
+        "gateway",
+        "run"
+      ],
+    },
     "mcp-server-github": {
       "enabled": true,
       "settings": {
@@ -104,10 +119,18 @@
   },
   "agent": {
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5-mini"
+      "provider": "google",
+      "model": "gemini-3.1-pro-preview",
+      "enable_thinking": true
     },
     "play_sound_when_agent_done": true,
+    "favorite_models": [
+      {
+        "provider": "openrouter",
+        "model": "openrouter/free",
+        "enable_thinking": true,
+      },
+    ],
     "model_parameters": []
   },
   "autosave": {
@@ -115,6 +138,8 @@
       "milliseconds": 1000
     }
   },
+  "base_keymap": "VSCode",
+  "ui_font_size": 18,
   "always_treat_brackets_as_autoclosed": true,
   "auto_signature_help": true,
   "auto_install_extensions": {
@@ -150,7 +175,6 @@
     "jsonl": true,
     "desktop": true,
     "mcp-server-sonarqube": true,
-    "opencode": true,
     "arch-mcp": true,
     "nix": true,
     "ini": true,
@@ -160,10 +184,10 @@
     "ghostty": true,
     "pyrefly": true,
     "pytest-language-server": true,
-    "mcp-server-brave-search": true
+    "mcp-server-brave-search": true,
+    "lua": true
   },
-  "ui_font_size": 20,
-  "buffer_font_size": 20,
+  "buffer_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "Ayu Light",
