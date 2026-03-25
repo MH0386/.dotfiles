@@ -12,5 +12,8 @@ return {
         "claude-code",
         "claude-agent-acp-bin"
     },
-    dotfiles_sync = true
+    dotfiles_sync = true,
+    dotfiles = {
+        { source = ".claude", target = "~/.claude" }
+    }
 }
