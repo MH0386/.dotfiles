@@ -93,9 +93,9 @@ return {
     -- Default applications
     default_apps = {
         browser = "firefox",
-        terminal = "ghostty",
-        text_editor = "zed",
-        file_manager = "nautilus",
+        terminal = "com.mitchellh.ghostty",
+        text_editor = "dev.zed.Zed",
+        file_manager = "org.gnome.Nautilus",
     },
 
     -- Settings
