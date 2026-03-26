@@ -7,4 +7,3 @@ C_DEFINES = -Dliblua_EXPORTS
 C_INCLUDES = -I/home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5/src -I/home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5/build
 
 C_FLAGS = -fPIC
-
