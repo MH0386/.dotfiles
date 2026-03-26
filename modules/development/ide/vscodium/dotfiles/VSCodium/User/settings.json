@@ -186,5 +186,6 @@
   "window.zoomLevel": 1,
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.experimental.share.enabled": true,
-  "yaml.format.singleQuote": true
+  "yaml.format.singleQuote": true,
+  "claudeCode.preferredLocation": "panel"
 }

@@ -31,6 +31,7 @@ local packages = {
     "vlc-plugins-all",
     "ripgrep",
     "lua-language-server",
+    "luarocks",
     "chaotic-keyring",
     "chaotic-mirrorlist"
 }

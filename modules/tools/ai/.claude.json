@@ -1,5 +1,5 @@
 {
-  "numStartups": 26,
+  "numStartups": 27,
   "tipsHistory": {
     "new-user-warmup": 8,
     "plan-mode-for-complex-tasks": 18,
@@ -11,10 +11,10 @@
     "enter-to-steer-in-relatime": 24,
     "todo-list": 25,
     "ide-upsell-external-terminal": 19,
-    "install-github-app": 12,
-    "install-slack-app": 12,
-    "drag-and-drop-images": 12,
-    "double-esc-code-restore": 12,
+    "install-github-app": 27,
+    "install-slack-app": 27,
+    "drag-and-drop-images": 27,
+    "double-esc-code-restore": 27,
     "shift-enter-setup": 3,
     "continue": 13,
     "shift-tab": 14,
@@ -26,11 +26,11 @@
     "feedback-command": 26,
     "color-when-multi-clauding": 26,
     "permissions": 26,
-    "rename-conversation": 11,
-    "custom-commands": 11,
+    "rename-conversation": 27,
+    "custom-commands": 27,
     "shift-enter": 17
   },
-  "promptQueueUseCount": 4,
+  "promptQueueUseCount": 5,
   "autoConnectIde": true,
   "cachedGrowthBookFeatures": {
     "tengu_sumi": true,
@@ -142,7 +142,11 @@
       "probability": 0
     },
     "tengu_prompt_cache_1h_config": {
-      "allowlist": ["repl_main_thread*", "sdk", "auto_mode"]
+      "allowlist": [
+        "repl_main_thread*",
+        "sdk",
+        "auto_mode"
+      ]
     },
     "tengu_accept_with_feedback": true,
     "tengu_react_vulnerability_warning": false,
@@ -185,7 +189,9 @@
       "minUserTurnsBeforeFeedback": 5,
       "minUserTurnsBetweenFeedback": 25,
       "hideThanksAfterMs": 3000,
-      "onForModels": ["*"],
+      "onForModels": [
+        "*"
+      ],
       "probability": 0.01
     },
     "tengu_code_diff_cli": true,
@@ -256,7 +262,9 @@
       "BashSearchTool": 20000
     },
     "tengu_destructive_command_warning": false,
-    "tengu_tool_search_unsupported_models": ["haiku"],
+    "tengu_tool_search_unsupported_models": [
+      "haiku"
+    ],
     "tengu_file_write_optimization": false,
     "tengu_ant_attribution_header_new": true,
     "tengu_quiet_fern": true,
@@ -498,9 +506,15 @@
     }
   },
   "githubRepoPaths": {
-    "mh0386/.dotfiles": ["/home/mohamed/.config/arch-config"],
-    "alphaspheredotai/chattr": ["/home/mohamed/Dev/chattr"],
-    "mh0386/aur": ["/home/mohamed/Dev/aur"]
+    "mh0386/.dotfiles": [
+      "/home/mohamed/.config/arch-config"
+    ],
+    "alphaspheredotai/chattr": [
+      "/home/mohamed/Dev/chattr"
+    ],
+    "mh0386/aur": [
+      "/home/mohamed/Dev/aur"
+    ]
   },
   "lastReleaseNotesSeen": "2.1.84",
   "officialMarketplaceAutoInstallAttempted": true,
@@ -542,7 +556,11 @@
   "mcpServers": {
     "MCP_DOCKER": {
       "command": "docker",
-      "args": ["mcp", "gateway", "run"]
+      "args": [
+        "mcp",
+        "gateway",
+        "run"
+      ]
     }
   },
   "opus1mMergeNoticeSeenCount": 6,
