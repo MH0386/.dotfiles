@@ -22,10 +22,12 @@ jobs:
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - name: Install Lua and LuaRocks
-        uses: awalsh128/cache-apt-pkgs-action@v1.6.0
-        with:
-          packages: lua5.4 liblua5.4-dev luarocks
+      - uses: leafo/gh-actions-lua@v12
+      - uses: leafo/gh-actions-luarocks@v6
+      
+      # Install some package
+      - name: install a module
+        run: luarocks install moonscript
       - name: Install lua-language-server
         uses: jaxxstorm/action-install-gh-release@v1.10.0
         with:
