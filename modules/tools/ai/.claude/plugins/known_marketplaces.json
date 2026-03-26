@@ -1,18 +1,18 @@
 {
   "claude-plugins-official": {
-    "source": {
-      "source": "github",
-      "repo": "anthropics/claude-plugins-official"
-    },
     "installLocation": "/home/mohamed/.claude/plugins/marketplaces/claude-plugins-official",
-    "lastUpdated": "2026-03-26T19:05:39.380Z"
+    "lastUpdated": "2026-03-26T19:05:39.380Z",
+    "source": {
+      "repo": "anthropics/claude-plugins-official",
+      "source": "github"
+    }
   },
   "voltagent-subagents": {
-    "source": {
-      "source": "github",
-      "repo": "VoltAgent/awesome-claude-code-subagents"
-    },
     "installLocation": "/home/mohamed/.claude/plugins/marketplaces/voltagent-subagents",
-    "lastUpdated": "2026-03-19T22:38:25.260Z"
+    "lastUpdated": "2026-03-19T22:38:25.260Z",
+    "source": {
+      "repo": "VoltAgent/awesome-claude-code-subagents",
+      "source": "github"
+    }
   }
 }

@@ -33,6 +33,7 @@
   },
   "chat.useCloudButtonV2": true,
   "chat.useNestedAgentsMdFiles": true,
+  "claudeCode.preferredLocation": "panel",
   "diffEditor.codeLens": true,
   "diffEditor.experimental.showMoves": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
@@ -186,6 +187,5 @@
   "window.zoomLevel": 1,
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.experimental.share.enabled": true,
-  "yaml.format.singleQuote": true,
-  "claudeCode.preferredLocation": "panel"
+  "yaml.format.singleQuote": true
 }
