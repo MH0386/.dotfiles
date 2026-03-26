@@ -22,7 +22,7 @@ jobs:
         uses: actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8 # v6.0.1
         with:
           token: ${{ secrets.GH_TOKEN }}
-      - uses: leafo/gh-actions-lua@v12.0.0
+      - uses: leafo/gh-actions-lua@v11.0.0
       - run: ls -lah .lua/bin
       - uses: leafo/gh-actions-luarocks@v6
       
