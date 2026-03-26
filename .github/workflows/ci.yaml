@@ -33,6 +33,8 @@ jobs:
           cache: enable
       - run: |
           ls -lah /opt/hostedtoolcache/LuaLS/lua-language-server/latest/linux-x64
+          export PATH=/opt/hostedtoolcache/LuaLS/lua-language-server/latest/linux-x64/bin:$PATH
+          
           which lua-language-server
           lua-language-server --version
       - name: Run prek hooks
