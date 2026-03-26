@@ -114,4 +114,3 @@ CMakeFiles/lua.dir/clean:
 CMakeFiles/lua.dir/depend:
 	cd /home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5 /home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5 /home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5/build /home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5/build /home/runner/work/.dotfiles/.dotfiles/.source/lua-5.3.5/build/CMakeFiles/lua.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/lua.dir/depend
-
