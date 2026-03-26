@@ -23,7 +23,6 @@ jobs:
         with:
           token: ${{ secrets.GH_TOKEN }}
       - uses: xpol/setup-lua@v0.3
-      - run: lua -v
       - uses: leafo/gh-actions-luarocks@v6
       - name: Install lua-language-server
         uses: jaxxstorm/action-install-gh-release@v1.10.0
