@@ -32,6 +32,7 @@ jobs:
           repo: LuaLS/lua-language-server
           cache: enable
       - run: |
+          ls -lah /opt/hostedtoolcache/LuaLS/lua-language-server/latest/linux-x64
           which lua-language-server
           lua-language-server --version
       - name: Run prek hooks
