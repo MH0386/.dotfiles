@@ -1,26 +1,28 @@
 {
   "$schema": "https://json.schemastore.org/claude-code-settings.json",
   "env": {
-    "ANTHROPIC_BASE_URL": "https://openrouter.ai/api",
+    "ANTHROPIC_BASE_URL": "https://api.kilo.ai/api/gateway",
     "ANTHROPIC_API_KEY": ""
   },
   "permissions": {
     "allow": [
-      "Bash(git add:*)"
+      "Bash(git log:*)",
+      "Agent(Explore)",
+      "Bash(gh search:*)",
+      "Bash(gh issue view:*)",
+      "Bash(gh pr view:*)"
     ],
-    "deny": [
-      "Read(*.env)",
-      "Bash(rm:*)"
-    ],
+    "deny": ["Read(*.env)"],
     "ask": [
       "Bash(gh pr create:*)",
       "Bash(git commit:*)",
-      "Bash(curl:*)"
+      "Bash(git add:*)",
+      "Bash(curl:*)",
+      "Bash(rm:*)"
     ],
     "defaultMode": "default"
   },
-  "model": "openrouter/free",
-  "allowedMcpServers": [],
+  "model": "kilo-auto/free",
   "enabledPlugins": {
     "superpowers@claude-plugins-official": true,
     "context7@claude-plugins-official": true,
@@ -38,7 +40,8 @@
     "huggingface-skills@claude-plugins-official": true,
     "coderabbit@claude-plugins-official": true,
     "lua-lsp@claude-plugins-official": true,
-    "voltagent-lang@voltagent-subagents": true
+    "voltagent-lang@voltagent-subagents": true,
+    "autofix-bot@claude-plugins-official": true
   },
   "extraKnownMarketplaces": {
     "voltagent-subagents": {
@@ -48,8 +51,6 @@
       }
     }
   },
-  "sandbox": {
-    "enabled": true
-  },
+  "sandbox": { "enabled": true },
   "autoMemoryEnabled": true
 }

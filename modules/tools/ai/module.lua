@@ -18,6 +18,7 @@ return {
     },
     dotfiles_sync = true,
     dotfiles = {
-        { source = ".claude", target = "~/.claude" }
+        { source = ".claude",      target = "~/.claude" },
+        { source = ".claude.json", target = "~/.claude.json" }
     }
 }

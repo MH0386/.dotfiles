@@ -24,4 +24,5 @@ state/
 **/secrets.*
 
 *.txt
-modules/tools/ai/.claude/plugins/
+modules/tools/ai/.claude/*
+!modules/tools/ai/.claude/settings.json
