@@ -3,7 +3,6 @@ queue_rules:
   - name: default
     update_method: merge
     allow_queue_branch_edit: true
-    queue_branch_merge_method: fast-forward
     queue_conditions:
       - and:
           - 'check-success = DeepSource: Secrets'
@@ -12,3 +11,6 @@ queue_rules:
           - check-success = GitGuardian Security Checks
           - check-success = CodeQL
           - check-success = prek
+    merge_method: fast-forward
+merge_protections_settings:
+  reporting_method: check-runs
