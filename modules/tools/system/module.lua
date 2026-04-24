@@ -1,0 +1,23 @@
+return {
+    description = "System Tools",
+    packages = {
+        "snapper",
+        "shelly",
+        "parui",
+        "pika-backup",
+        "pikaur-git",
+        "topgrade",
+        "dconf-editor",
+        "archlinux-tweak-tool-git",
+        "downgrade",
+        "paru",
+        "pacseek-bin",
+        "gufw",
+        "ufw",
+        "mission-center",
+        "solaar",
+        "sysd-manager",
+        "device-mapper"
+    },
+    dotfiles_sync = true
+}

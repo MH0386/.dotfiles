@@ -22,6 +22,14 @@ jobs:
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           token: ${{ secrets.GH_TOKEN }}
+      - uses: xpol/setup-lua@v0.3
+      - uses: leafo/gh-actions-luarocks@v6
+      - name: Install lua-language-server
+        uses: jaxxstorm/action-install-gh-release@v1.10.0
+        with:
+          repo: LuaLS/lua-language-server
+          cache: enable
+          binaries-location: bin
       - name: Run prek hooks
         uses: j178/prek-action@0bb87d7f00b0c99306c8bcb8b8beba1eb581c037 # v1.1.1
       - name: Commit prek changes
