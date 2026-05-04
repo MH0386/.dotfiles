@@ -1,0 +1,17 @@
+return {
+    description = "Dank Material Shell",
+    packages = {
+        "matugen",
+        "niri",
+        "dms-shell-bin",
+        "quickshell",
+        "cava",
+        "cliphist",
+        "wl-clipboard",
+        "dgop",
+        "dsearch-bin",
+        "qt6-multimedia",
+        "greetd-dms-greeter-git"
+    },
+    dotfiles_sync = true
+}
